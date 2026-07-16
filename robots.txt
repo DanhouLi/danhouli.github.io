@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://danhouli.github.io/al-folio/sitemap.xml
