@@ -95,15 +95,22 @@ Happy to connect and chat!
 </style>
 
 <script>
-  /* Wait for the page to load, then safely strip Tailwind's padding classes from the footer */
   document.addEventListener("DOMContentLoaded", function() {
+    /* 1. Unhide the name in the navigation bar on the homepage */
+    const navbarBrand = document.querySelector('.navbar-brand');
+    if (navbarBrand) {
+      navbarBrand.classList.remove('hidden', 'd-none', 'opacity-0');
+      navbarBrand.style.setProperty('display', 'inline-block', 'important');
+      navbarBrand.style.setProperty('visibility', 'visible', 'important');
+      navbarBrand.style.setProperty('opacity', '1', 'important');
+    }
+
+    /* 2. Safely strip Tailwind's padding classes from the footer */
     const footer = document.querySelector('footer');
     const footerContainer = footer ? footer.querySelector('.container') : null;
     
     if (footer) {
-      // Find and remove any Tailwind padding/margin classes (e.g., mt-5, py-4)
       footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
-      // Apply our custom minimalist spacing
       footer.style.paddingTop = "10px";
       footer.style.paddingBottom = "10px";
       footer.style.marginTop = "20px";
