@@ -2,20 +2,22 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: 
-  
-selected_papers: true
+  more_info: '<div style="text-align: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Student in Economics<br>National University of Singapore</span></div>'
+
+selected_papers: false
 social: false
 
 announcements:
   enabled: false
-  scrollable: true
+
+latest_posts:
+  enabled: false
 ---
 
 Welcome to my homepage!
