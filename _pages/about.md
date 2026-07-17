@@ -67,19 +67,6 @@ Happy to connect and chat!
     width: 100% !important;
   }
 
-  /* 6. Make the footer significantly shorter (The Nuke) */
-  footer, footer.fixed-bottom, footer.sticky-bottom {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    margin-top: 15px !important;
-    height: auto !important;
-  }
-  
-  footer .container, footer .container-fluid {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
   /* Target the actual text lines inside the footer to strip their margins */
   footer p, footer div {
     margin-bottom: 0 !important;
