@@ -7,30 +7,18 @@ permalink: /
 profile:
   align: left
   image: 1013.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: |
-  <div style="text-align: center;">
-      <span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br>
-      <span style="font-size: 0.9em;">
-        PhD Student in Economics<br>
-        National University of Singapore
-      </span>
-    </div>
+  image_circular: false
+  more_info: '<div style="text-align: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</span></div>'
   
   
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 Welcome to my homepage!
