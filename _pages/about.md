@@ -87,11 +87,6 @@ Happy to connect and chat!
     font-size: 0.8rem !important; /* Adjust this number to be smaller (e.g., 0.75rem) or larger */
   }
   
-  /* 8. Increase the size of the name in the navigation bar */
-  nav .navbar-brand, nav .title, header .title {
-    font-size: 2rem !important; /* Change this number to make it bigger (e.g., 1.8rem) or smaller */
-    font-weight: 700 !important; /* This makes it nice and bold! */
-  }
 </style>
 
 <script>
