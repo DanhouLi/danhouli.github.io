@@ -67,12 +67,19 @@ Happy to connect and chat!
     width: 100% !important;
   }
 
-  /* Target the actual text lines inside the footer to strip their margins */
-  footer p, footer div {
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-    padding-bottom: 0 !important;
-    line-height: 1.2 !important;
+  /* 6. Push the footer to the absolute bottom of the screen */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Forces the body to be at least the height of your screen */
+  }
+  
+  body > .container, body > div.container {
+    flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
+  }
+
+  footer {
+    margin-top: auto !important; /* Pushes the footer to the very bottom of that stretched space */
   }
 </style>
 
