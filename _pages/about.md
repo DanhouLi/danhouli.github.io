@@ -31,8 +31,8 @@ My recent projects focus on platform leakage (disintermediation) and price discr
 Happy to connect and chat!
 
 <style>
-  /* Import the elegant Lora font */
-  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+  /* Import the clean, modern Roboto font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
   
   /* 1. Hide the giant name block on the homepage */
   .post-header {
@@ -46,8 +46,15 @@ Happy to connect and chat!
     visibility: visible !important;
   }
 
-  /* 3. Apply the new font to all text */
+  /* 3. Apply the new sans-serif font to all text */
   body, p, h1, h2, h3, h4, h5, h6, a, span, div, .navbar-brand {
-    font-family: 'Lora', serif !important;
+    font-family: 'Roboto', sans-serif !important;
+  }
+
+  /* 4. Resize the profile photo */
+  .profile img {
+    max-width: 250px !important; /* Change this number to make it bigger or smaller */
+    width: 100% !important; /* This keeps the image looking sharp */
+    height: auto !important;
   }
 </style>
