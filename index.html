@@ -46,7 +46,27 @@
     padding-bottom: 0 !important;
     line-height: 1.2 !important;
   }
-</style> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
+</style> <script>
+  /* Wait for the page to load, then safely strip Tailwind's padding classes from the footer */
+  document.addEventListener("DOMContentLoaded", function() {
+    const footer = document.querySelector('footer');
+    const footerContainer = footer ? footer.querySelector('.container') : null;
+    
+    if (footer) {
+      // Find and remove any Tailwind padding/margin classes (e.g., mt-5, py-4)
+      footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      // Apply our custom minimalist spacing
+      footer.style.paddingTop = "10px";
+      footer.style.paddingBottom = "10px";
+      footer.style.marginTop = "20px";
+    }
+    
+    if (footerContainer) {
+      footerContainer.className = footerContainer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footerContainer.style.padding = "0";
+    }
+  });
+</script> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
