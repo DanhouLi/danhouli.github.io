@@ -75,3 +75,25 @@ Happy to connect and chat!
     line-height: 1.2 !important;
   }
 </style>
+
+<script>
+  /* Wait for the page to load, then safely strip Tailwind's padding classes from the footer */
+  document.addEventListener("DOMContentLoaded", function() {
+    const footer = document.querySelector('footer');
+    const footerContainer = footer ? footer.querySelector('.container') : null;
+    
+    if (footer) {
+      // Find and remove any Tailwind padding/margin classes (e.g., mt-5, py-4)
+      footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      // Apply our custom minimalist spacing
+      footer.style.paddingTop = "10px";
+      footer.style.paddingBottom = "10px";
+      footer.style.marginTop = "20px";
+    }
+    
+    if (footerContainer) {
+      footerContainer.className = footerContainer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footerContainer.style.padding = "0";
+    }
+  });
+</script>
