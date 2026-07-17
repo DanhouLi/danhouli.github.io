@@ -66,16 +66,31 @@
   }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
-    /* 1. Unhide the name in the navigation bar on the homepage */
-    const navbarBrand = document.querySelector('.navbar-brand');
-    if (navbarBrand) {
-      navbarBrand.classList.remove('hidden', 'd-none', 'opacity-0');
-      navbarBrand.style.setProperty('display', 'inline-block', 'important');
-      navbarBrand.style.setProperty('visibility', 'visible', 'important');
-      navbarBrand.style.setProperty('opacity', '1', 'important');
+    /* 1. BUILD AND INJECT THE NAME INTO THE NAVBAR */
+    // Find the navigation bar container
+    const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav');
+    
+    // Check to make sure it doesn't already exist to prevent duplicates
+    if (navbarContainer && !document.querySelector('.navbar-brand')) {
+      // Create a brand new link element
+      const myName = document.createElement('a');
+      
+      // Give it the exact same classes and styling as the other pages
+      myName.className = 'navbar-brand title font-weight-bold';
+      myName.href = '/'; // Link back to the homepage
+      myName.innerText = 'Danhou Li'; // Your name
+      
+      // Apply your custom font sizes and styles directly
+      myName.style.fontSize = '1.5rem';
+      myName.style.fontWeight = '700';
+      myName.style.fontFamily = "'Roboto', sans-serif";
+      myName.style.display = 'inline-block';
+      
+      // Inject it into the very front of the navigation bar
+      navbarContainer.insertBefore(myName, navbarContainer.firstChild);
     }
 
-    /* 2. Safely strip Tailwind's padding classes from the footer */
+    /* 2. SHRINK THE FOOTER */
     const footer = document.querySelector('footer');
     const footerContainer = footer ? footer.querySelector('.container') : null;
     
