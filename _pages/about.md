@@ -87,13 +87,17 @@ Happy to connect and chat!
     font-size: 0.8rem !important; /* Adjust this number to be smaller (e.g., 0.75rem) or larger */
   }
 
-  /* Expand the about page content to match the margins of the other pages */
+  /* Expand the about page content to match, but force it to stay perfectly centered */
   article.post, .post-content {
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
+  }
+
+  /* Dial back the navigation name nudge */
+  nav .navbar-brand {
+    margin-left: 0px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
   }
 </style>
 
