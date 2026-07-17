@@ -68,9 +68,16 @@ Happy to connect and chat!
   }
 
   /* 6. Make the footer significantly shorter */
-  footer {
+  footer, footer.fixed-bottom, footer.sticky-bottom {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    margin-top: 0 !important;
+    margin-top: 20px !important;
+    height: auto !important;
+    min-height: 0 !important;
+  }
+  
+  footer .container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 </style>
