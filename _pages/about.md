@@ -66,4 +66,11 @@ Happy to connect and chat!
     text-align: center !important;
     width: 100% !important;
   }
+
+  /* 6. Make the footer significantly shorter */
+  footer {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 0 !important;
+  }
 </style>
