@@ -8,7 +8,7 @@ profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: '<div style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</span></div>'
+  more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.3em; font-weight: bold; margin-bottom: 2px;">Danhou Li</div><div style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
   
 selected_papers: false
 social: false
@@ -80,6 +80,12 @@ Happy to connect and chat!
 
   footer {
     margin-top: auto !important; /* Pushes the footer to the very bottom of that stretched space */
+  }
+
+  /* 8. Increase the size of the name in the navigation bar */
+  nav .navbar-brand, nav .title, header .title {
+    font-size: 1.5rem !important; /* Change this number to make it bigger (e.g., 1.8rem) or smaller */
+    font-weight: 700 !important; /* This makes it nice and bold! */
   }
 </style>
 
