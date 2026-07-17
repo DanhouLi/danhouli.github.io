@@ -100,9 +100,7 @@ Happy to connect and chat!
       /* Use the exact template classes used on your other pages */
       myName.className = 'navbar-brand title font-weight-lighter';
       myName.href = '/'; 
-      
-      /* Recreate the exact HTML structure: First name bold, last name lighter */
-      myName.innerHTML = '<span class="font-weight-bold">Danhou</span> Li'; 
+      myName.innerText = 'Danhou Li';
       
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
