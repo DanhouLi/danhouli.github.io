@@ -8,8 +8,8 @@ profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: '<div style="text-align: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Student in Economics<br>National University of Singapore</span></div>'
-
+  more_info: '<div style="text-align: center; width: 100%; display: flex; flex-direction: column; align-items: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</span></div>'
+  
 selected_papers: false
 social: false
 
@@ -35,26 +35,35 @@ Happy to connect and chat!
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
   
   /* 1. Hide the giant name block on the homepage */
-  .post-header {
+  .post-header, h1.post-title {
     display: none !important;
   }
 
   /* 2. Force the name to appear in the top navbar on the homepage */
-  .navbar-brand {
-    display: inline-block !important;
+  /* Targets both old Bootstrap and new Tailwind title classes */
+  nav .navbar-brand, nav .title, header .title {
+    display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
   }
 
   /* 3. Apply the new sans-serif font to all text */
-  body, p, h1, h2, h3, h4, h5, h6, a, span, div, .navbar-brand {
+  body, p, h1, h2, h3, h4, h5, h6, a, span, div, .title {
     font-family: 'Roboto', sans-serif !important;
   }
 
-  /* 4. Resize the profile photo */
+  /* 4. Resize and perfectly center the profile photo */
   .profile img {
-    max-width: 250px !important; /* Change this number to make it bigger or smaller */
-    width: 100% !important; /* This keeps the image looking sharp */
+    max-width: 250px !important; /* Change this number to adjust size */
+    width: 100% !important;
     height: auto !important;
+    margin: 0 auto !important; 
+    display: block !important;
+  }
+  
+  /* 5. Force the container below the photo to align to the center */
+  .profile .address, .profile .more-info {
+    text-align: center !important;
+    width: 100% !important;
   }
 </style>
