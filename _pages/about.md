@@ -8,7 +8,7 @@ profile:
   align: left
   image: 1013.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info: |
   <div style="text-align: center;">
       <span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br>
       <span style="font-size: 0.9em;">
