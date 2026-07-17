@@ -102,11 +102,11 @@ Happy to connect and chat!
     if (navbarContainer && !document.querySelector('.navbar-brand')) {
       const myName = document.createElement('a');
       
-      myName.className = 'navbar-brand title font-weight-bold';
+      /* FIX: Stripped away the 'title' and 'font-weight-bold' classes */
+      myName.className = 'navbar-brand';
       myName.href = '/'; 
       myName.innerText = 'Danhou Li'; 
       
-      /* Let the template control the size, only enforce the font family and display */
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
       
