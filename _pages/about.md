@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: '<div style="text-align: center;"><span style="font-size: 1.3em; font-weight: bold;">Danhou Li</span><br><span style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</span></div>'
-
+  more_info: 
+  
 selected_papers: true
 social: false
 
