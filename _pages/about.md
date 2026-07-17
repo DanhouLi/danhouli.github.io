@@ -29,3 +29,25 @@ Research Interests: Industrial Organization, Platform Economics, Digital Economy
 My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
 
 Happy to connect and chat!
+
+<style>
+  /* Import the elegant Lora font */
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+  
+  /* 1. Hide the giant name block on the homepage */
+  .post-header {
+    display: none !important;
+  }
+
+  /* 2. Force the name to appear in the top navbar on the homepage */
+  .navbar-brand {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* 3. Apply the new font to all text */
+  body, p, h1, h2, h3, h4, h5, h6, a, span, div, .navbar-brand {
+    font-family: 'Lora', serif !important;
+  }
+</style>
