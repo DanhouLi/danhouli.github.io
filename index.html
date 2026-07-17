@@ -67,26 +67,19 @@
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* 1. BUILD AND INJECT THE NAME INTO THE NAVBAR */
-    // Find the navigation bar container
     const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav');
     
-    // Check to make sure it doesn't already exist to prevent duplicates
     if (navbarContainer && !document.querySelector('.navbar-brand')) {
-      // Create a brand new link element
       const myName = document.createElement('a');
       
-      // Give it the exact same classes and styling as the other pages
       myName.className = 'navbar-brand title font-weight-bold';
-      myName.href = '/'; // Link back to the homepage
-      myName.innerText = 'Danhou Li'; // Your name
+      myName.href = '/'; 
+      myName.innerText = 'Danhou Li'; 
       
-      // Apply your custom font sizes and styles directly
-      myName.style.fontSize = '1.5rem';
-      myName.style.fontWeight = '700';
+      /* Let the template control the size, only enforce the font family and display */
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
       
-      // Inject it into the very front of the navigation bar
       navbarContainer.insertBefore(myName, navbarContainer.firstChild);
     }
 
