@@ -15,25 +15,33 @@ nav_order: 2
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    /* 1. Swap the page title without affecting the navigation bar */
+    /* 1. Swap the page title */
     const pageTitle = document.querySelector('header.post-header .post-title');
     if (pageTitle) {
       pageTitle.innerText = "Working papers and Publications";
     }
 
-    /* 2. Permanently reveal all abstracts and hide the 'Abs' buttons */
-    const abstractButtons = document.querySelectorAll('.abstract.btn, .btn.abstract');
-    abstractButtons.forEach(btn => {
-      btn.style.display = 'none'; // Hides the buttons
-    });
+    /* 2. The Unstoppable Loop */
+    setInterval(function() {
+      /* Hunt down the 'Abs' button (making sure we don't accidentally target the text div!) */
+      const buttons = document.querySelectorAll('a.abstract, button.abstract, .abstract.btn');
+      buttons.forEach(btn => {
+        if (btn.tagName.toLowerCase() !== 'div') {
+          btn.style.display = 'none';
+        }
+      });
 
-    const abstracts = document.querySelectorAll('.abstract');
-    abstracts.forEach(abs => {
-      abs.classList.remove('hidden'); // Strips the hidden class
-      abs.style.display = 'block';    // Forces it to display
-      abs.style.marginTop = '15px';   // Adds breathing room
-      abs.style.marginBottom = '25px';
-    });
+      /* Force the actual abstract text to stay visible */
+      const abstracts = document.querySelectorAll('div.abstract');
+      abstracts.forEach(abs => {
+        abs.classList.remove('hidden');
+        abs.style.display = 'block';
+        abs.style.marginTop = '15px';
+        abs.style.marginBottom = '25px';
+        abs.style.visibility = 'visible';
+        abs.style.height = 'auto';
+      });
+    }, 500); /* This checks and enforces the rule twice every single second! */
   });
 </script>
 
