@@ -37,12 +37,9 @@ nav_order: 2
   });
 </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    /* Swap the page title without affecting the navigation bar */
-    const pageTitle = document.querySelector('header.post-header .post-title');
-    if (pageTitle) {
-      pageTitle.innerText = "Working papers and Publications";
-    }
-  });
-</script>
+<style>
+  /* Increase the font size of all publication titles */
+  .publications .title {
+    font-size: 1.2em !important;
+  }
+</style>
