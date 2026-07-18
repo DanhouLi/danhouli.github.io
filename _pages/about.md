@@ -102,7 +102,7 @@ Happy to connect and chat!
   
   /* Dial back the navigation name nudge */
   nav .navbar-brand {
-    margin-left: 15px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
+    margin-left: -10px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
   }
 </style>
 
