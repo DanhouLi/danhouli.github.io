@@ -13,22 +13,29 @@ nav_order: 2
 
 </div>
 
-<style>
-  /* 1. Erase the 'Abs' toggle button */
-  a.abstract.btn, button.abstract.btn, .btn.abstract {
-    display: none !important;
-  }
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    /* 1. Swap the page title without affecting the navigation bar */
+    const pageTitle = document.querySelector('header.post-header .post-title');
+    if (pageTitle) {
+      pageTitle.innerText = "Working papers and Publications";
+    }
 
-  /* 2. Force the abstract text to always display directly below the title */
-  div.abstract, div.abstract.hidden {
-    display: block !important;
-    visibility: visible !important;
-    height: auto !important;
-    opacity: 1 !important;
-    margin-top: 15px !important; /* Adds a nice breathing room below the title */
-    margin-bottom: 25px !important; /* Adds space before the next paper */
-  }
-</style>
+    /* 2. Permanently reveal all abstracts and hide the 'Abs' buttons */
+    const abstractButtons = document.querySelectorAll('.abstract.btn, .btn.abstract');
+    abstractButtons.forEach(btn => {
+      btn.style.display = 'none'; // Hides the buttons
+    });
+
+    const abstracts = document.querySelectorAll('.abstract');
+    abstracts.forEach(abs => {
+      abs.classList.remove('hidden'); // Strips the hidden class
+      abs.style.display = 'block';    // Forces it to display
+      abs.style.marginTop = '15px';   // Adds breathing room
+      abs.style.marginBottom = '25px';
+    });
+  });
+</script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
