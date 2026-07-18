@@ -1,10 +1,189 @@
-<html>
-  <body>
-    <center>
-      <h2>Relativity: the Special and General Theory</h2>
-      <h5>Albert Einstein</h5>
-      <br />
-      Insert HTML document here.
-    </center>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Research Papers</title>
+
+  <style>
+    /* Overall page */
+    body {
+      margin: 0;
+      padding: 40px 20px;
+
+      background-color: #ffffff;
+      color: #222222;
+
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    /* Main content width */
+    .page-container {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    /* One paper */
+    .paper-entry {
+      margin-bottom: 35px;
+      padding-bottom: 25px;
+
+      border-bottom: 1px solid #dddddd;
+    }
+
+    /* Paper title */
+    .paper-title {
+      margin: 0 0 8px 0;
+
+      font-size: 1.45rem;
+      line-height: 1.35;
+      text-align: center;
+    }
+
+    /* Author or coauthor information */
+    .paper-authors {
+      margin: 0 0 10px 0;
+
+      font-size: 1rem;
+      font-weight: normal;
+      text-align: center;
+      color: #555555;
+    }
+
+    /* Journal information */
+    .paper-publication {
+      margin: 0 0 12px 0;
+
+      font-size: 0.95rem;
+      text-align: center;
+      color: #666666;
+    }
+
+    /* Abstract container */
+    .abstract-toggle {
+      margin-top: 12px;
+      text-align: center;
+    }
+
+    /* Abstract button */
+    .abstract-toggle summary {
+      display: inline-block;
+      cursor: pointer;
+
+      padding: 7px 15px;
+
+      background-color: #2f5d7c;
+      color: #ffffff;
+
+      border-radius: 5px;
+
+      font-family: Arial, sans-serif;
+      font-size: 0.9rem;
+      font-weight: 600;
+
+      transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    /* Remove the default disclosure triangle */
+    .abstract-toggle summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .abstract-toggle summary::marker {
+      content: "";
+    }
+
+    .abstract-toggle summary:hover {
+      background-color: #244a63;
+    }
+
+    .abstract-toggle[open] summary {
+      background-color: #244a63;
+    }
+
+    /* Abstract text box */
+    .abstract-box {
+      margin: 14px auto 0 auto;
+      padding: 18px 22px;
+
+      max-width: 760px;
+
+      background-color: #f1f6f9;
+      color: #263238;
+
+      border-left: 4px solid #2f5d7c;
+      border-radius: 5px;
+
+      line-height: 1.65;
+      text-align: justify;
+    }
+
+    .abstract-box p {
+      margin: 0;
+    }
+
+    /* Switch button text when opened */
+    .hide-label {
+      display: none;
+    }
+
+    .abstract-toggle[open] .show-label {
+      display: none;
+    }
+
+    .abstract-toggle[open] .hide-label {
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page-container">
+
+    <article class="paper-entry">
+
+      <h2 class="paper-title">
+        Relativity: The Special and General Theory
+      </h2>
+
+      <p class="paper-authors">
+        Albert Einstein
+      </p>
+
+      <p class="paper-publication">
+        <em>Journal or publication information</em>,
+        Vol. 1, No. 1, pp. 1–100.
+      </p>
+
+      <details class="abstract-toggle">
+
+        <summary>
+          <span class="show-label">Show abstract</span>
+          <span class="hide-label">Hide abstract</span>
+        </summary>
+
+        <div class="abstract-box">
+          <p>
+            Insert the abstract here. The abstract remains hidden until the
+            reader clicks the “Show abstract” button.
+          </p>
+        </div>
+
+      </details>
+
+    </article>
+
+  </main>
+
+</body>
+
 </html>
