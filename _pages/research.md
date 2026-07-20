@@ -13,14 +13,37 @@ nav_order: 2
 
 </div>
 
+
+  /* some notes */
+  
 <p style="font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
   (including scheduled. * presented by a coauthor)
 </p>
+
+<hr style="margin: 40px 0; border-top: 1px solid #ddd;">
+
+<h2 style="font-size: 1.75rem; margin-bottom: 20px;">Work in Progress</h2>
+
+<ul style="padding-left: 20px;">
+  <li style="margin-bottom: 10px;">
+    <strong>Your First Work in Progress Title Here</strong> 
+    <br><span style="font-size: 0.9em; font-style: italic;">with Coauthor Name</span>
+  </li>
+  <li style="margin-bottom: 10px;">
+    <strong>Your Second Work in Progress Title Here</strong> 
+    <br><span style="font-size: 0.9em; font-style: italic;">with Coauthor Name</span>
+  </li>
+</ul>
 
 <style>
   /* 1. Increase the font size of all publication titles */
   .publications .title {
     font-size: 1.2em !important;
+  }
+
+  /* Shrink the main page title */
+  header.post-header .post-title {
+    font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
   }
 
     /* 6. Push the footer to the absolute bottom of the screen */
