@@ -25,7 +25,7 @@ nav_order: 2
     /* TITLE SWAP: Change the giant header text without touching the navbar */
     const pageTitle = document.querySelector('header.post-header .post-title') || document.querySelector('.post-title') || document.querySelector('h1');
     if (pageTitle) {
-      pageTitle.innerText = "Working papers and publications";
+      pageTitle.innerText = "Working Papers and Publications";
     }
   });
 </script>
