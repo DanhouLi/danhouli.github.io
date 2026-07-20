@@ -73,4 +73,19 @@ nav_order: 2
       pageTitle.innerText = "Working Papers and Publications";
     }
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // 1. Find every presentations block on the page
+    const presentationBlocks = document.querySelectorAll('.presentations-block');
+    
+    presentationBlocks.forEach(function(block) {
+      // 2. Find the hidden abstract container it is trapped inside
+      const abstractContainer = block.closest('.abstract');
+      
+      if (abstractContainer) {
+        // 3. Move the block out of the abstract and place it directly below it!
+        abstractContainer.parentNode.insertBefore(block, abstractContainer.nextSibling);
+      }
+    });
+  });
 </script>
