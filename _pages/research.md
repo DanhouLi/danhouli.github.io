@@ -31,8 +31,15 @@ nav_order: 2
 </script>
 
 <style>
-  /* Increase the font size of all publication titles */
+  /* 1. Increase the font size of all publication titles */
   .publications .title {
     font-size: 1.2em !important;
+  }
+
+  /* 2. Global Footer Height Adjustment (Local Override) */
+  footer, footer.fixed-bottom {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto !important;
   }
 </style>
