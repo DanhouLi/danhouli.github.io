@@ -16,7 +16,7 @@ nav_order: 2
 
   /* some notes */
   
-<p style="font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
+<p style="margin-left: 20px; font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
   (including scheduled. * presented by a coauthor)
 </p>
 
