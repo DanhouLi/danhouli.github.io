@@ -14,7 +14,7 @@ nav_order: 2
 </div>
 
   
-<p style="margin-left: 20px; font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
+<p style="margin-left: 200px; font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
   (including scheduled. * presented by a coauthor)
 </p>
 
@@ -25,7 +25,7 @@ nav_order: 2
 <ul style="padding-left: 20px;">
   <li style="margin-bottom: 10px;">
     <strong>Platform Information Disclosure under Disintermediation</strong> 
- # <br><span style="font-size: 1em;">with Coauthor Name</span>
+    <span style="font-size: 1em; display: none;">with Coauthor Name</span>
   </li>
 </ul>
 
