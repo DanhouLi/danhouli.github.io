@@ -13,6 +13,10 @@ nav_order: 2
 
 </div>
 
+<p style="font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
+  (including scheduled. * presented by a coauthor)
+</p>
+
 <style>
   /* 1. Increase the font size of all publication titles */
   .publications .title {
