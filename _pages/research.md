@@ -13,8 +13,6 @@ nav_order: 2
 
 </div>
 
-
-  /* some notes */
   
 <p style="margin-left: 20px; font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
   (including scheduled. * presented by a coauthor)
@@ -26,12 +24,8 @@ nav_order: 2
 
 <ul style="padding-left: 20px;">
   <li style="margin-bottom: 10px;">
-    <strong>Your First Work in Progress Title Here</strong> 
-    <br><span style="font-size: 0.9em; font-style: italic;">with Coauthor Name</span>
-  </li>
-  <li style="margin-bottom: 10px;">
-    <strong>Your Second Work in Progress Title Here</strong> 
-    <br><span style="font-size: 0.9em; font-style: italic;">with Coauthor Name</span>
+    <strong>Platform Information Disclosure under Disintermediation</strong> 
+ # <br><span style="font-size: 1em;">with Coauthor Name</span>
   </li>
 </ul>
 
@@ -89,7 +83,7 @@ nav_order: 2
   }
   .container {
     flex-grow: 1 !important;
-    max-width: 1100px !important; /* Increases the width! Default is usually around 800px */
+    max-width: 1200px !important; /* Increases the width! Default is usually around 800px */
   }
 </style>
 
