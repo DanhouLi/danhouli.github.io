@@ -62,6 +62,7 @@ nav_order: 2
   }
   .container {
     flex-grow: 1 !important;
+    max-width: 1100px !important; /* Increases the width! Default is usually around 800px */
   }
 </style>
 
