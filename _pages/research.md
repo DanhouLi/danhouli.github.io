@@ -28,29 +28,28 @@ nav_order: 2
       pageTitle.innerText = "Working Papers and Publications";
     }
   });
+
+  /* 2. SHRINK THE FOOTER */
+    const footer = document.querySelector('footer');
+    const footerContainer = footer ? footer.querySelector('.container') : null;
+    
+    if (footer) {
+      footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footer.style.paddingTop = "10px";
+      footer.style.paddingBottom = "10px";
+      footer.style.marginTop = "20px";
+    }
+    
+    if (footerContainer) {
+      footerContainer.className = footerContainer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footerContainer.style.padding = "0";
+    }
+  });
 </script>
 
 <style>
   /* 1. Increase the font size of all publication titles */
   .publications .title {
     font-size: 1.2em !important;
-  }
-
-  /* 2. SHRINK THE FOOTER */
-  footer, footer.fixed-bottom {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    margin-top: 20px !important;
-    height: auto !important;
-  }
-  
-  /* (Optional) Force the footer to stay at the bottom of short pages */
-  body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-  }
-  .container {
-    flex-grow: 1 !important;
   }
 </style>
