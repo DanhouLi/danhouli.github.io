@@ -14,40 +14,6 @@ nav_order: 2
 </div>
 
 <style>
-  /* Increase the font size of all publication titles */
-  .publications .title {
-    font-size: 1.2em !important;
-  }
-</style>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    /* TITLE SWAP: Change the giant header text without touching the navbar */
-    const pageTitle = document.querySelector('header.post-header .post-title') || document.querySelector('.post-title') || document.querySelector('h1');
-    if (pageTitle) {
-      pageTitle.innerText = "Working Papers and Publications";
-    }
-  });
-
-  /* 2. SHRINK THE FOOTER */
-    const footer = document.querySelector('footer');
-    const footerContainer = footer ? footer.querySelector('.container') : null;
-    
-    if (footer) {
-      footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
-      footer.style.paddingTop = "10px";
-      footer.style.paddingBottom = "10px";
-      footer.style.marginTop = "20px";
-    }
-    
-    if (footerContainer) {
-      footerContainer.className = footerContainer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
-      footerContainer.style.padding = "0";
-    }
-  });
-</script>
-
-<style>
   /* 1. Increase the font size of all publication titles */
   .publications .title {
     font-size: 1.2em !important;
@@ -73,3 +39,13 @@ nav_order: 2
     font-size: 0.8rem !important; /* Adjust this number to be smaller (e.g., 0.75rem) or larger */
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    /* TITLE SWAP: Change the giant header text without touching the navbar */
+    const pageTitle = document.querySelector('header.post-header .post-title') || document.querySelector('.post-title') || document.querySelector('h1');
+    if (pageTitle) {
+      pageTitle.innerText = "Working Papers and Publications";
+    }
+  });
+</script>
