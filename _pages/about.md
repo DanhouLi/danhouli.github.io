@@ -20,7 +20,8 @@ latest_posts:
   enabled: false
 ---
 
-<p>style="font-weight: bold;">Welcome to my homepage!
+<div style="font-weight: bold;" markdown="1">
+Welcome to my homepage!
 
 I am a PhD candidate from the Department of Economics, National University of Singapore (NUS). Prior to this, I obtained my Bachelor’s and Master’s degrees from Chinese University of Hong Kong (CUHK).
 
@@ -28,12 +29,12 @@ Research Interests: Industrial Organization, Platform Economics, Digital Economy
 
 My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
 
-Happy to connect and chat!</p>
+Happy to connect and chat!
 
+<p>Here is my <a href="{{ '/assets/pdf/Danhou_Li_CV.pdf' | relative_url }}" target="_blank" style="color: darkblue !important; text-decoration: underline !important;">CV</a>.</p>
 
-<p>Here is my <a href="{{ '/assets/pdf/Danhou_Li_CV.pdf' | relative_url }}" target="_blank" style="color: darkblue !important; text-decoration: underline !important;font-weight: bold;">CV</a>.</p>
-
-<p>Email: <a href="mailto:danhou@u.nus.edu" style="color: darkblue !important; text-decoration: underline !important; font-weight: bold;">danhou@u.nus.edu</a></p>
+<p>Email: <a href="mailto:danhou@u.nus.edu" style="color: darkblue !important; text-decoration: underline !important;">danhou@u.nus.edu</a></p>
+</div>
 
 <style>
   /* Import the clean, modern Roboto font */
