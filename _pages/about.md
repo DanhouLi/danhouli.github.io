@@ -119,7 +119,7 @@ Happy to connect and chat!
   }
   /* Nudge the right-side menu buttons to perfectly align with other pages */
   nav .navbar-collapse, nav .navbar-nav {
-    padding-right: 4px !important; /* Increase this to push buttons further left, or decrease to push right */
+    padding-right: 0px !important; /* Increase this to push buttons further left, or decrease to push right */
   }
   
   /* Dial back the navigation name nudge */
