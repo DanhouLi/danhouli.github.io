@@ -98,7 +98,23 @@ Happy to connect and chat!
     padding-right: 0 !important;
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
-
+/* 2. SHRINK THE FOOTER */
+  footer, footer.fixed-bottom {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin-top: 20px !important;
+    height: auto !important;
+  }
+  
+  /* (Optional) Force the footer to stay at the bottom of short pages */
+  body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+  }
+  .container {
+    flex-grow: 1 !important;
+  }
   /* Nudge the right-side menu buttons to perfectly align with other pages */
   nav .navbar-collapse, nav .navbar-nav {
     padding-right: 4px !important; /* Increase this to push buttons further left, or decrease to push right */
