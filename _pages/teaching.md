@@ -13,3 +13,11 @@ This page displays a collection of courses with detailed schedules, materials, a
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
+
+<style>
+  footer, footer.fixed-bottom {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto !important;
+  }
+</style>
