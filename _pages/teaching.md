@@ -15,9 +15,20 @@ This page displays a collection of courses with detailed schedules, materials, a
 {% include courses.liquid %}
 
 <style>
-  footer, footer.fixed-bottom {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    height: auto !important;
-  }
+  /* 2. SHRINK THE FOOTER */
+    const footer = document.querySelector('footer');
+    const footerContainer = footer ? footer.querySelector('.container') : null;
+    
+    if (footer) {
+      footer.className = footer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footer.style.paddingTop = "10px";
+      footer.style.paddingBottom = "10px";
+      footer.style.marginTop = "20px";
+    }
+    
+    if (footerContainer) {
+      footerContainer.className = footerContainer.className.replace(/\b(mt-\d+|py-\d+|pt-\d+|pb-\d+)\b/g, '');
+      footerContainer.style.padding = "0";
+    }
+  });
 </style>
