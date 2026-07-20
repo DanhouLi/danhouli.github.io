@@ -14,8 +14,8 @@ This page displays a collection of courses with detailed schedules, materials, a
 
 {% include courses.liquid %}
 
-<style>
-  /* 2. SHRINK THE FOOTER */
+<script>
+    /* 2. SHRINK THE FOOTER */
     const footer = document.querySelector('footer');
     const footerContainer = footer ? footer.querySelector('.container') : null;
     
@@ -31,4 +31,5 @@ This page displays a collection of courses with detailed schedules, materials, a
       footerContainer.style.padding = "0";
     }
   });
-</style>
+</script>
+
