@@ -28,8 +28,8 @@
   a product return policy, but prefers a pure marketplace mode when it can
   invest in transaction benefits at a sufficiently low cost or when it faces
   fierce supplier competition.
-  
-  <div class="presentations-block" style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed #ccc;">
+
+  <div class="presentations-block" style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #ccc;">
     <strong><i class="fas fa-chalkboard-teacher mr-1"></i> Presentations:</strong>
     <ul style="margin-bottom: 0; padding-left: 20px; margin-top: 5px;">
       <li>BU Platform Research Symposium 2026 (long talk track)</li>
@@ -100,20 +100,3 @@ tend to be worse off.},
 
   url = {https://www.sciencedirect.com/science/article/abs/pii/S0167624523000434}
 }
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    // 1. Find every presentations block on the page
-    const presentationBlocks = document.querySelectorAll('.presentations-block');
-    
-    presentationBlocks.forEach(function(block) {
-      // 2. Find the hidden abstract container it is trapped inside
-      const abstractContainer = block.closest('.abstract');
-      
-      if (abstractContainer) {
-        // 3. Move the block out of the abstract and place it directly below it!
-        abstractContainer.parentNode.insertBefore(block, abstractContainer.nextSibling);
-      }
-    });
-  });
-</script>
