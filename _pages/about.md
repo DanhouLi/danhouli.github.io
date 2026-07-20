@@ -22,7 +22,7 @@ latest_posts:
 
 Welcome to my homepage!
 
-I am a PhD student from the Department of Economics, National University of Singapore (NUS). Prior to this, I obtained my Bachelor’s and Master’s degrees from Chinese University of Hong Kong (CUHK).
+I am a PhD candidate from the Department of Economics, National University of Singapore (NUS). Prior to this, I obtained my Bachelor’s and Master’s degrees from Chinese University of Hong Kong (CUHK).
 
 Research Interests: Industrial Organization, Platform Economics, Digital Economy
 
