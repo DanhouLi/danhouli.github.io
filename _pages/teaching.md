@@ -14,6 +14,28 @@ This page displays a collection of courses with detailed schedules, materials, a
 
 {% include courses.liquid %}
 
+<style>
+    /* 6. Push the footer to the absolute bottom of the screen */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Forces the body to be at least the height of your screen */
+  }
+  
+  body > .container, body > div.container {
+    flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
+  }
+
+  footer {
+    margin-top: auto !important; /* Pushes the footer to the very bottom of that stretched space */
+  }
+
+  /* 7. Reduce the footer font size */
+  footer, footer .container {
+    font-size: 0.8rem !important; /* Adjust this number to be smaller (e.g., 0.75rem) or larger */
+  }
+</style>
+
 <script>
     /* 2. SHRINK THE FOOTER */
     const footer = document.querySelector('footer');
