@@ -6,7 +6,20 @@ nav: true
 nav_order: 6
 calendar: false
 ---
+**Teaching Assistant, National University of Singapore**
+* EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
+* EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Yi-Chun Chen), Fall 2023
+* EC6101 Advanced Microeconomic Theory (PhD, Prof. Xiao Luo), Spring 2023
 
+<br>
+
+**Teaching Assistant, The Chinese University of Hong Kong**
+* ECON3011 Intermediate Microeconomic Theory (undergraduate, Prof. Ce Matthew Shi), Spring 2020, 2021, Fall 2019, 2020
+
+<br>
+
+**Mentor, National University of Singapore**
+* Economic Research Workshop (undergraduate), Fall 2025
 
 <style>
     /* 6. Push the footer to the absolute bottom of the screen */
