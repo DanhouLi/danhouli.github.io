@@ -19,3 +19,36 @@ nav_order: 2
     font-size: 1.2em !important;
   }
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    /* 1. TITLE SWAP: Change the giant header text without touching the navbar */
+    /* (Added a backup selector just in case the template changes the header class) */
+    const pageTitle = document.querySelector('header.post-header .post-title') || document.querySelector('.post-title') || document.querySelector('h1');
+    if (pageTitle) {
+      pageTitle.innerText = "Working papers and publications";
+    }
+
+    /* 2. ABSTRACT FIX: The Unstoppable Loop to hide buttons and show text */
+    setInterval(function() {
+      /* Hide the buttons */
+      const buttons = document.querySelectorAll('a.abstract, button.abstract, .abstract.btn, .badges span');
+      buttons.forEach(btn => {
+        if (btn.tagName.toLowerCase() !== 'div' && (btn.innerText.toLowerCase().includes('abs') || btn.innerText.toLowerCase().includes('abstract'))) {
+          btn.style.display = 'none';
+        }
+      });
+
+      /* Force abstracts to stay visible */
+      const abstracts = document.querySelectorAll('div.abstract');
+      abstracts.forEach(abs => {
+        abs.classList.remove('hidden');
+        abs.style.display = 'block';
+        abs.style.marginTop = '15px';
+        abs.style.marginBottom = '25px';
+        abs.style.visibility = 'visible';
+        abs.style.height = 'auto';
+      });
+    }, 500);
+  });
+</script>
