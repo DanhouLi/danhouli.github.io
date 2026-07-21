@@ -51,15 +51,6 @@ nav_order: 2
     flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
   }
 
-  footer {
-    margin-top: auto !important; /* Pushes the footer to the very bottom of that stretched space */
-  }
-
-  /* 7. Reduce the footer font size */
-  footer, footer .container {
-    font-size: 0.8rem !important; /* Adjust this number to be smaller (e.g., 0.75rem) or larger */
-  }
-
   /* Expand the about page content to match, but force it to stay perfectly centered */
   article.post, .post-content {
     max-width: 100% !important;
@@ -68,7 +59,8 @@ nav_order: 2
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
 /* 2. SHRINK THE FOOTER */
-  footer, footer.fixed-bottom {
+  footer, footer.fixed-bottom, footer .container {
+    font-size: 0.8rem !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     margin-top: 20px !important;
