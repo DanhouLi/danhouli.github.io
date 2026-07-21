@@ -42,7 +42,7 @@ calendar: false
 
   /* 3. CONTROL THE LINE EXACTLY */
   hr.teaching-divider {
-    margin-top: 40px !important; /* Increase this if it is TOO close now! */
+    margin-top: 30px !important; /* Increase this if it is TOO close now! */
     margin-bottom: 40px !important;
     border-top: 1px solid #ddd !important;
   }
