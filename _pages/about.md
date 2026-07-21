@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<div style="font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" markdown="1">
+<div style="font-weight: 400; font-size: 1.1em; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" markdown="1">
 Welcome to my homepage!
 
 I am a PhD candidate from the Department of Economics, National University of Singapore (NUS). Prior to this, I obtained my Bachelor’s and Master’s degrees from Chinese University of Hong Kong (CUHK).
