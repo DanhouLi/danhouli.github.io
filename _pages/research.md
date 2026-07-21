@@ -73,6 +73,7 @@ nav_order: 2
     padding-bottom: 10px !important;
     margin-top: 20px !important;
     height: auto !important;
+    text-align: left !important;
   }
   
   /* (Optional) Force the footer to stay at the bottom of short pages */
