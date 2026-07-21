@@ -44,7 +44,7 @@ calendar: false
     font-size: 0.8rem !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
     height: auto !important;
     text-align: left !important;
   }
