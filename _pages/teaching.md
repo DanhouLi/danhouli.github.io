@@ -7,7 +7,7 @@ nav_order: 6
 calendar: false
 ---
 
-<hr class="divider">
+<hr class="teaching-divider">
 
 **Teaching Assistant, National University of Singapore**
 * EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
@@ -41,8 +41,8 @@ calendar: false
   }
 
   /* 3. CONTROL THE LINE EXACTLY */
-  hr.divider {
-    margin-top: 15px !important; /* Increase this if it is TOO close now! */
+  hr.teaching-divider {
+    margin-top: 40px !important; /* Increase this if it is TOO close now! */
     margin-bottom: 40px !important;
     border-top: 1px solid #ddd !important;
   }
