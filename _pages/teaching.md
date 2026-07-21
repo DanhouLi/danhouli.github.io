@@ -62,13 +62,8 @@ calendar: false
   /* TEACHING PAGE SPACING */
   /* 1. Reduce the gap between the title and the bullet points */
   p {
-    margin-bottom: 2px !important; /* Shrinks the space below the title. Default is usually ~16px */
-  }
-  
-  /* 2. Increase the gap between the different sections */
-  ul {
-    margin-top: 0px !important; /* Keeps the top of the list snug against the title */
-    margin-bottom: 45px !important; /* Creates a nice, wide gap before the next title begins! */
+    margin-bottom: 5px !important; /* Shrinks the space below the title. Default is usually ~16px */
+    font-size: 1.1em !important;
   }
 
   /* THICKER NAVIGATION BUTTONS */
