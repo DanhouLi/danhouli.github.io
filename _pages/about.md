@@ -95,8 +95,8 @@ Happy to connect and chat!
  /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
     font-size: 0.8rem !important;
-    padding-top: 5px !important;
-    padding-bottom: 10px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
     margin-top: 0px !important;
     height: auto !important;
     text-align: left !important;
