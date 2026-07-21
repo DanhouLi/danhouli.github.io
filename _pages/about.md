@@ -8,7 +8,7 @@ profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.3em; font-weight: bold; margin-bottom: 2px;">Danhou Li</div><div style="font-size: 0.9em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
+  more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.5em; font-weight: bold; margin-bottom: 2px;">Danhou Li</div><div style="font-weight: 400; font-size: 1em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
   
 selected_papers: false
 social: false
@@ -20,7 +20,7 @@ latest_posts:
   enabled: false
 ---
 
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" markdown="1">
+<div style="font-weight: 400; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" markdown="1">
 Welcome to my homepage!
 
 I am a PhD candidate from the Department of Economics, National University of Singapore (NUS). Prior to this, I obtained my Bachelor’s and Master’s degrees from Chinese University of Hong Kong (CUHK).
