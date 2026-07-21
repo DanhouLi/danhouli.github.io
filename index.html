@@ -63,7 +63,7 @@
     font-size: 0.8rem !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    margin-top: 10px !important;
+    margin-top: auto !important;
     height: auto !important;
     text-align: left !important;
   }
@@ -85,6 +85,11 @@
   /* Dial back the navigation name nudge */
   nav .navbar-brand {
     margin-left: -6px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
+  }
+
+  /* THICKER NAVIGATION BUTTONS */
+  nav .navbar-nav .nav-link {
+    font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
   }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
