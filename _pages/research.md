@@ -87,6 +87,10 @@ nav_order: 2
   nav .navbar-brand {
     margin-left: 7px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
   }
+  /* THICKER NAVIGATION BUTTONS */
+  nav .navbar-nav .nav-link {
+    font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
+  }
 </style>
 
 <script>
