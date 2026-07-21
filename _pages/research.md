@@ -40,15 +40,6 @@ nav_order: 2
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
   }
 
-  /* 5. WIDEN ONLY THE PAPERS */
-  /* This stretches the paper text block while ignoring the page title */
-  @media (min-width: 576px) {
-    .publications .row .col-sm-8 {
-      flex: 0 0 83.33% !important; /* Expands it to a 10-column width */
-      max-width: 83.33% !important;
-    }
-  }
-
     /* 6. Push the footer to the absolute bottom of the screen */
   body {
     display: flex;
