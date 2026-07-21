@@ -98,7 +98,7 @@ Happy to connect and chat!
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     margin-top: 0px !important;
-    height: auto !important;
+    height: 50px !important;
     text-align: left !important;
   }
   
