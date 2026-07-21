@@ -95,10 +95,10 @@ Happy to connect and chat!
  /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
     font-size: 0.8rem !important;
-    padding-top: 10px !important;
+    padding-top: 5px !important;
     padding-bottom: 10px !important;
     margin-top: 0px !important;
-    height: 50px !important;
+    height: auto !important;
     text-align: left !important;
   }
   
