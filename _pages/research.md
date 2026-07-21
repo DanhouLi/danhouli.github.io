@@ -87,7 +87,7 @@ nav_order: 2
 
   /* Nudge the right-side menu buttons to perfectly align with other pages */
   nav .navbar-collapse, nav .navbar-nav {
-    padding-right: -5px !important; /* Increase this to push buttons further left, or decrease to push right */
+    margin-right: -6px !important; /* Increase this to push buttons further left, or decrease to push right */
   }
   
   /* Dial back the navigation name nudge */
