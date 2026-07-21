@@ -84,6 +84,16 @@ nav_order: 2
   .container {
     flex-grow: 1 !important;
   }
+
+  /* Nudge the right-side menu buttons to perfectly align with other pages */
+  nav .navbar-collapse, nav .navbar-nav {
+    padding-right: -5px !important; /* Increase this to push buttons further left, or decrease to push right */
+  }
+  
+  /* Dial back the navigation name nudge */
+  nav .navbar-brand {
+    margin-left: -6px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
+  }
 </style>
 
 <script>
