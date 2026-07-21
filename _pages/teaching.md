@@ -10,7 +10,7 @@ calendar: false
 <hr class="teaching-divider">
 
 **Teaching Assistant, National University of Singapore**
-* RE6010 Applied Microeconomic Theory (Ph.D., Prof. Zhonglin Li), Fall 2026
+* RE6010 Applied Microeconomic Theory (PhD, Prof. Zhonglin Li), Fall 2026
 * EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
 * EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Yi-Chun Chen), Fall 2023
 * EC6101 Advanced Microeconomic Theory (PhD, Prof. Xiao Luo), Spring 2023
