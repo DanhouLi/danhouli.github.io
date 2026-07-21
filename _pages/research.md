@@ -18,7 +18,7 @@ nav_order: 2
   (including scheduled. * presented by a coauthor)
 </p>
 
-<hr style="margin: 40px 0; border-top: 1px solid #ddd;">
+<hr class="divider">
 
 <h2 style="font-size: 1.75rem; margin-bottom: 20px;">Work in Progress</h2>
 
@@ -38,6 +38,25 @@ nav_order: 2
   /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
+  }
+
+  /* 1. STRIP THE HEADER BOX */
+  header.post-header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* 2. STRIP THE CONTENT BOX */
+  .post-content, article.post {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* 3. CONTROL THE LINE EXACTLY */
+  hr.divider {
+    margin-top: 15px !important; /* Increase this if it is TOO close now! */
+    margin-bottom: 40px !important;
+    border-top: 1px solid #ddd !important;
   }
 
     /* 6. Push the footer to the absolute bottom of the screen */
