@@ -101,7 +101,7 @@ Happy to connect and chat!
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
 /* 2. SHRINK THE FOOTER */
-  footer, footer.fixed-bottom {
+  footer, footer.fixed-bottom, footer .container {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     margin-top: 20px !important;
