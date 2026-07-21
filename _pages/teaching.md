@@ -70,5 +70,10 @@ calendar: false
     margin-top: 0px !important; /* Keeps the top of the list snug against the title */
     margin-bottom: 45px !important; /* Creates a nice, wide gap before the next title begins! */
   }
+
+  /* THICKER NAVIGATION BUTTONS */
+  nav .navbar-nav .nav-link {
+    font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
+  }
 </style>
 
