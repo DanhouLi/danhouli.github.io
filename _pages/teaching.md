@@ -7,7 +7,7 @@ nav_order: 6
 calendar: false
 ---
 
-<hr style="margin: 40px 0; border-top: 1px solid #ddd;">
+<hr style="margin-top: -10px; margin: 40px 0; border-top: 1px solid #ddd;">
 
 **Teaching Assistant, National University of Singapore**
 * EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
