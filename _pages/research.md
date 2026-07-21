@@ -63,7 +63,7 @@ nav_order: 2
     font-size: 0.8rem !important;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    margin-top: auto !important;
+    margin-top: 0px !important;
     height: auto !important;
     text-align: left !important;
   }
