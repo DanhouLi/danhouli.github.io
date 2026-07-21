@@ -7,7 +7,7 @@ nav_order: 6
 calendar: false
 ---
 
-<hr style="margin-top: -10px; margin: 40px 0; border-top: 1px solid #ddd;">
+<hr class="divider">
 
 **Teaching Assistant, National University of Singapore**
 * EC5101 Microeconomic Theory (PhD, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
@@ -26,6 +26,25 @@ calendar: false
     /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
+  }
+
+    /* 1. STRIP THE HEADER BOX */
+  header.post-header {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* 2. STRIP THE CONTENT BOX */
+  .post-content, article.post {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  /* 3. CONTROL THE LINE EXACTLY */
+  hr.divider {
+    margin-top: 15px !important; /* Increase this if it is TOO close now! */
+    margin-bottom: 40px !important;
+    border-top: 1px solid #ddd !important;
   }
     
     /* 6. Push the footer to the absolute bottom of the screen */
