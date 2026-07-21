@@ -23,6 +23,11 @@ calendar: false
 * Economic Research Workshop (undergraduate), Fall 2025
 
 <style>
+    /* Shrink the main page title */
+  header.post-header .post-title {
+    font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
+  }
+    
     /* 6. Push the footer to the absolute bottom of the screen */
   body {
     display: flex;
