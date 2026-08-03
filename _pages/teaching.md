@@ -10,14 +10,14 @@ calendar: false
 <hr class="teaching-divider">
 
 **Teaching Assistant, National University of Singapore**
-* RE6010 Applied Microeconomic Theory (PhD level, Prof. Zhonglin Li), Fall 2026
-* EC5101 Microeconomic Theory (PhD level, Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
-* EC5101 Microeconomic Theory (PhD level, Prof. John Quah and Prof. Yi-Chun Chen), Fall 2023
-* EC6101 Advanced Microeconomic Theory (PhD level, Prof. Xiao Luo), Spring 2023
+* RE6010 Applied Microeconomic Theory (PhD level, Instructor: Prof. Zhonglin Li), Fall 2026
+* EC5101 Microeconomic Theory (PhD level, Instructor: Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
+* EC5101 Microeconomic Theory (PhD level, Instructor: Prof. John Quah and Prof. Yi-Chun Chen), Fall 2023
+* EC6101 Advanced Microeconomic Theory (PhD level, Instructor: Prof. Xiao Luo), Spring 2023
 
 
 **Teaching Assistant, The Chinese University of Hong Kong**
-* ECON3011 Intermediate Microeconomic Theory (undergraduate level, Prof. Ce Matthew Shi), Spring 2020, 2021, Fall 2019, 2020
+* ECON3011 Intermediate Microeconomic Theory (undergraduate level, Instructor: Prof. Ce Matthew Shi), Spring 2020, 2021, Fall 2019, 2020
 
 
 **Mentor, National University of Singapore**
