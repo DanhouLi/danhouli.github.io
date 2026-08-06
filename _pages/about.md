@@ -8,7 +8,7 @@ profile:
   align: left
   image: 1013.jpg
   image_circular: false
-  more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.5em; font-weight: bold; margin-bottom: 2px;">Danhou Li <span style="margin-left: 15px;"> 李丹厚</div><div style="font-weight: 400; font-size: 1em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
+  more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.5em; font-weight: bold; margin-bottom: 2px;">Danhou Li <span style="margin-left: 10px;"> 李丹厚</div><div style="font-weight: 400; font-size: 1em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
   
 selected_papers: false
 social: false
