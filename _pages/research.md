@@ -123,7 +123,8 @@ nav_order: 2
     color: #495057 !important; /* Dark gray text */
     border: 1px solid #ced4da !important; /* Soft, clean border */
     border-radius: 5px !important; /* Modern rounded corners */
-    padding: 4px 12px !important; /* Better spacing inside the button */
+    padding: 6px 16px !important; /* Better spacing inside the button */
+    font-size: 1.1em !important;
     font-weight: 500 !important; /* Slightly bold text */
     transition: all 0.2s ease-in-out !important; /* Smooth animation */
     box-shadow: none !important; /* Removes the harsh black box look */
