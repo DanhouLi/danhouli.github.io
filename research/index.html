@@ -96,8 +96,8 @@
     color: #495057 !important; /* Dark gray text */
     border: 1px solid #ced4da !important; /* Soft, clean border */
     border-radius: 5px !important; /* Modern rounded corners */
-    padding: 6px 16px !important; /* Better spacing inside the button */
-    font-size: 1.1em !important;
+    padding: 4px 12px !important; /* Better spacing inside the button */
+    font-size: 1em !important;
     font-weight: 500 !important; /* Slightly bold text */
     transition: all 0.2s ease-in-out !important; /* Smooth animation */
     box-shadow: none !important; /* Removes the harsh black box look */
@@ -131,6 +131,17 @@
     font-size: 0.95rem !important; 
     line-height: 1.6 !important; 
     margin: 0 !important; 
+  }
+
+  /* 3. SHRINK THE GAP ABOVE PRESENTATIONS */
+  .publications .presentations-block {
+    margin-top: -5px !important; /* Negative numbers pull it upward */
+    padding-top: 0 !important;
+  }
+  
+  /* Also ensure the links box isn't pushing down too hard */
+  .publications .links {
+    margin-bottom: 5px !important; 
   }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
