@@ -114,14 +114,20 @@
 
   /* 2. UPGRADE THE ABSTRACT CONTENT BOX */
   .publications .abstract {
-    border: 1px solid #eaecf0 !important; /* Solid, soft gray border instead of dashed black */
-    background-color: #fdfdfd !important; /* Very subtle off-white background */
-    border-radius: 8px !important; /* Nice, modern rounded corners */
-    padding: 20px 25px !important; /* Lots of breathing room for the text */
-    margin-top: 15px !important; /* Space between the button and the box */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Very soft drop shadow for depth */
-    font-size: 0.95rem !important; /* Slightly smaller text for a polished look */
-    line-height: 1.6 !important; /* Better line spacing for readability */
+    margin-top: 15px !important; /* Keeps the space between the button and the box */
+    /* We removed the padding and borders from here so it can hide completely! */
+  }
+
+  .publications .abstract p {
+    text-align: left !important; /* Fixes Problem 2: Forces text to left-align instead of justify */
+    border: 1px solid #eaecf0 !important; /* Soft gray border */
+    background-color: #fdfdfd !important; /* Soft off-white background */
+    border-radius: 8px !important; /* Rounded corners */
+    padding: 20px 25px !important; /* Inner spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Soft shadow */
+    font-size: 0.95rem !important; 
+    line-height: 1.6 !important; 
+    margin: 0 !important; /* Prevents extra invisible gaps inside the box */
   }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
