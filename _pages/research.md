@@ -141,20 +141,22 @@ nav_order: 2
 
   /* 2. UPGRADE THE ABSTRACT CONTENT BOX */
   .publications .abstract {
-    margin-top: 15px !important; /* Keeps the space between the button and the box */
-    /* We removed the padding and borders from here so it can hide completely! */
+    border: none !important; /* THIS IS THE MAGIC LINE: Nukes the default dashed border! */
+    background: none !important; /* Removes any default background */
+    padding: 0 !important; /* Removes outer padding to fix the peek-a-boo glitch */
+    margin-top: 10px !important; 
   }
 
   .publications .abstract p {
-    text-align: left !important; /* Fixes Problem 2: Forces text to left-align instead of justify */
-    border: 1px solid #eaecf0 !important; /* Soft gray border */
+    text-align: left !important; /* Forces text to left-align */
+    border: 1px solid #eaecf0 !important; /* Soft gray border for your new box */
     background-color: #fdfdfd !important; /* Soft off-white background */
     border-radius: 8px !important; /* Rounded corners */
     padding: 20px 25px !important; /* Inner spacing */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Soft shadow */
     font-size: 0.95rem !important; 
     line-height: 1.6 !important; 
-    margin: 0 !important; /* Prevents extra invisible gaps inside the box */
+    margin: 0 !important; 
   }
 </style>
 
@@ -178,6 +180,16 @@ nav_order: 2
       if (abstractContainer) {
         // 3. Move the block out of the abstract and place it directly below it!
         abstractContainer.parentNode.insertBefore(block, abstractContainer.nextSibling);
+      }
+    });
+  });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    /* SWAP "Abs" TO "Abstract" */
+    const abstractButtons = document.querySelectorAll('.publications .links a');
+    abstractButtons.forEach(function(btn) {
+      if (btn.innerText.trim() === "Abs") {
+        btn.innerText = "Abstract";
       }
     });
   });
