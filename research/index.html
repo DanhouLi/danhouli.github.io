@@ -83,6 +83,46 @@
   nav .navbar-nav .nav-link {
     font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
   }
+
+  /* =========================================
+     NEW STYLES FOR BUTTONS AND ABSTRACT BOXES
+     ========================================= */
+
+  /* 1. UPGRADE THE ABSTRACT BUTTONS */
+  .publications .links a.btn, 
+  .publications .links a.badge,
+  .publications .links a {
+    background-color: #f8f9fa !important; /* Light modern gray background */
+    color: #495057 !important; /* Dark gray text */
+    border: 1px solid #ced4da !important; /* Soft, clean border */
+    border-radius: 5px !important; /* Modern rounded corners */
+    padding: 4px 12px !important; /* Better spacing inside the button */
+    font-weight: 500 !important; /* Slightly bold text */
+    transition: all 0.2s ease-in-out !important; /* Smooth animation */
+    box-shadow: none !important; /* Removes the harsh black box look */
+    text-decoration: none !important;
+  }
+
+  /* Add a hover effect so the button reacts to the mouse */
+  .publications .links a.btn:hover, 
+  .publications .links a.badge:hover,
+  .publications .links a:hover {
+    background-color: #e9ecef !important; /* Slightly darker gray on hover */
+    color: #000 !important; /* Text turns pure black on hover */
+    border-color: #adb5bd !important;
+  }
+
+  /* 2. UPGRADE THE ABSTRACT CONTENT BOX */
+  .publications .abstract {
+    border: 1px solid #eaecf0 !important; /* Solid, soft gray border instead of dashed black */
+    background-color: #fdfdfd !important; /* Very subtle off-white background */
+    border-radius: 8px !important; /* Nice, modern rounded corners */
+    padding: 20px 25px !important; /* Lots of breathing room for the text */
+    margin-top: 15px !important; /* Space between the button and the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Very soft drop shadow for depth */
+    font-size: 0.95rem !important; /* Slightly smaller text for a polished look */
+    line-height: 1.6 !important; /* Better line spacing for readability */
+  }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* TITLE SWAP: Change the giant header text without touching the navbar */
