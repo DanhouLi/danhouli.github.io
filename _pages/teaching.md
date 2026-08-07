@@ -98,5 +98,10 @@ calendar: false
   nav .navbar-nav .nav-link {
     font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
   }
+
+  /* CHANGE NAV BAR NAME FONT THICKNESS */
+  nav .navbar-brand {
+    font-weight: 500 !important; 
+  }
 </style>
 
