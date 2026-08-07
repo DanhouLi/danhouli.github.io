@@ -170,6 +170,12 @@ nav_order: 2
   .publications .links {
     margin-bottom: 5px !important; 
   }
+
+  /* 4. CHANGE THE GAP BETWEEN DIFFERENT PAPERS */
+  .publications ol.bibliography li, 
+  .publications ul.bibliography li {
+    margin-bottom: 35px !important; /* This is the gap between papers! */
+  }
 </style>
 
 <script>
