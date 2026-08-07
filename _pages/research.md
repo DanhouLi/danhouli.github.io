@@ -153,7 +153,7 @@ nav_order: 2
     border: 1px solid #eaecf0 !important; /* Soft gray border for your new box */
     background-color: #fdfdfd !important; /* Soft off-white background */
     border-radius: 8px !important; /* Rounded corners */
-    padding: 20px 25px !important; /* Inner spacing */
+    padding: 10px 15px !important; /* Inner spacing */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Soft shadow */
     font-size: 0.95rem !important; 
     line-height: 1.6 !important; 
