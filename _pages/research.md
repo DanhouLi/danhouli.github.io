@@ -32,7 +32,7 @@ nav_order: 2
 <style>
   /* 1. Increase the font size of all publication titles */
   .publications .title {
-    font-size: 1.2em !important;
+    font-size: 1.1em !important;
   }
 
   /* Shrink the main page title */
