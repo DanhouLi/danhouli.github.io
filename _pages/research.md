@@ -104,7 +104,7 @@ nav_order: 2
   
   /* Dial back the navigation name nudge */
   nav .navbar-brand {
-    margin-left: 7px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
+    margin-left: 8px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
   }
   /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
