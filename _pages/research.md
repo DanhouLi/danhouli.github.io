@@ -13,7 +13,6 @@ nav_order: 2
 
 </div>
 
-  
 <p style="margin-left: 180px; font-size: 0.9rem; font-style: italic; margin-top: 30px; color: #666;">
   (including scheduled. * presented by a coauthor)
 </p>
@@ -59,7 +58,7 @@ nav_order: 2
     border-top: 1px solid #ddd !important;
   }
 
-    /* 6. Push the footer to the absolute bottom of the screen */
+  /* 6. Push the footer to the absolute bottom of the screen */
   body {
     display: flex;
     flex-direction: column;
@@ -77,7 +76,8 @@ nav_order: 2
     padding-right: 0 !important;
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
-/* 2. SHRINK THE FOOTER */
+
+  /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
     font-size: 0.8rem !important;
     padding-top: 6px !important;
@@ -107,6 +107,7 @@ nav_order: 2
     margin-left: 7.5px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
     font-weight: 500 !important;
   }
+  
   /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
     font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
