@@ -120,6 +120,13 @@ Happy to connect and chat!
   nav .navbar-nav .nav-link {
     font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
   }
+
+  /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
+  nav .navbar-nav .nav-item.active .nav-link,
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link:hover {
+    color: #0056b3 !important; /* A nice, professional dark blue */
+  }
 </style>
 
 <script>
