@@ -177,6 +177,13 @@ nav_order: 2
   .publications ul.bibliography li {
     margin-bottom: 25px !important; /* This is the gap between papers! */
   }
+
+  /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
+  nav .navbar-nav .nav-item.active .nav-link,
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link:hover {
+    color: #0056b3 !important; /* A nice, professional dark blue */
+  }
 </style>
 
 <script>
