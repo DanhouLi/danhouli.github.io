@@ -103,5 +103,12 @@ calendar: false
   nav .navbar-brand {
     font-weight: 500 !important; 
   }
+
+/* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
+  nav .navbar-nav .nav-item.active .nav-link,
+  nav .navbar-nav .nav-link.active,
+  nav .navbar-nav .nav-link:hover {
+    color: #0056b3 !important; /* A nice, professional dark blue */
+  }
 </style>
 
