@@ -102,7 +102,7 @@ calendar: false
 
   /* CHANGE NAV BAR NAME FONT THICKNESS */
   nav .navbar-brand {
-    font-weight: 500 !important; 
+    font-weight: 400 !important; 
   }
 
   /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
