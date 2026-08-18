@@ -144,7 +144,7 @@ Happy to connect and chat!
       
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
-      myName.style.fontWeight = '500';
+      myName.style.fontWeight = '400';
       
       navbarContainer.insertBefore(myName, navbarContainer.firstChild);
     }
