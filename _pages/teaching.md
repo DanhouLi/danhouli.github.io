@@ -10,26 +10,27 @@ calendar: false
 <hr class="teaching-divider">
 
 **Teaching Assistant, National University of Singapore**
+
 * RE6010 Applied Microeconomic Theory (PhD level, Instructor: Prof. Zhonglin Li), Fall 2026
 * EC5101 Microeconomic Theory (PhD level, Instructor: Prof. John Quah and Prof. Xiao Luo), Fall 2024, 2025
 * EC5101 Microeconomic Theory (PhD level, Instructor: Prof. John Quah and Prof. Yi-Chun Chen), Fall 2023
 * EC6101 Advanced Microeconomic Theory (PhD level, Instructor: Prof. Xiao Luo), Spring 2023
 
-
 **Teaching Assistant, The Chinese University of Hong Kong**
+
 * ECON3011 Intermediate Microeconomic Theory (undergraduate level, Instructor: Prof. Ce Matthew Shi), Spring 2020, 2021, Fall 2019, 2020
 
-
 **Mentor, National University of Singapore**
+
 * Economic Research Workshop (undergraduate), Fall 2025
 
 <style>
-    /* Shrink the main page title */
+  /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
   }
 
-    /* 1. STRIP THE HEADER BOX */
+  /* 1. STRIP THE HEADER BOX */
   header.post-header {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
@@ -48,7 +49,7 @@ calendar: false
     border-top: 1px solid #ddd !important;
   }
     
-    /* 6. Push the footer to the absolute bottom of the screen */
+  /* 6. Push the footer to the absolute bottom of the screen */
   body {
     display: flex;
     flex-direction: column;
@@ -67,7 +68,7 @@ calendar: false
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
     
-/* 2. SHRINK THE FOOTER */
+  /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
     font-size: 0.8rem !important;
     padding-top: 6px !important;
@@ -104,11 +105,10 @@ calendar: false
     font-weight: 500 !important; 
   }
 
-/* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
+  /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
   nav .navbar-nav .nav-item.active .nav-link,
   nav .navbar-nav .nav-link.active,
   nav .navbar-nav .nav-link:hover {
     color: #0056b3 !important; /* A nice, professional dark blue */
   }
 </style>
-
