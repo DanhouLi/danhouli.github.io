@@ -193,17 +193,18 @@ nav_order: 2
 
   /* 2. HIDE THE BORDER AT THE TOP OF THE PAGE */
   header nav.navbar {
-    border-bottom: 1px solid transparent !important;
+    border-bottom: 0.2px solid transparent !important;
     box-shadow: none !important;
     transition: all 0.3s ease-in-out !important;
   }
 
-  /* 3. FORCE BLUE WHEN SCROLLING DOWN */
-  header nav.navbar.fixed-top,
+  /* 3. FORCE BLUE ONLY WHEN SCROLLING DOWN */
+  /* (Removed the permanent "fixed-top" class from here!) */
   header nav.navbar.scrolled,
+  header nav.navbar.top-nav-collapse,
   header nav.navbar.auto-hiding-navbar {
-    border-bottom: 1px solid var(--global-theme-color) !important;
-    box-shadow: 0 1px 0 0 var(--global-theme-color) !important; /* Kills any purple shadow */
+    border-bottom: 0.2px solid var(--global-theme-color) !important;
+    box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
 </style>
