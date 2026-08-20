@@ -185,6 +185,11 @@ nav_order: 2
   nav .navbar-nav .nav-link:hover {
     color: #0056b3 !important; /* A nice, professional dark blue */
   }
+
+  /* CHANGE THE NAVBAR SCROLL LINE TO BLUE */
+  header nav.navbar {
+    border-bottom-color: #0056b3 !important;
+  }
 </style>
 
 <script>
