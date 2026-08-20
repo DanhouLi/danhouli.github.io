@@ -128,8 +128,10 @@ Happy to connect and chat!
     color: #0056b3 !important; /* A nice, professional dark blue */
   }
 
-  /* CHANGE THE NAVBAR SCROLL LINE TO BLUE */
-  header nav.navbar {
+  /* MAKE THE BORDER BLUE ONLY WHEN SCROLLING */
+  header nav.navbar.scrolled,
+  header nav.navbar.fixed-top,
+  header nav.navbar.auto-hiding-navbar {
     border-bottom-color: #0056b3 !important;
   }
 </style>
