@@ -23,7 +23,7 @@ latest_posts:
 <div style="font-weight: 400; font-size: 1.1em; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;" markdown="1">
 Welcome to my homepage!
 
-I am Danhou Li, a PhD candidate from the Department of Economics, National University of Singapore (NUS). Before joining NUS, I obtained my Bachelor’s and Master’s degrees from the Chinese University of Hong Kong (CUHK).
+I am Danhou Li, a PhD candidate from the Department of Economics, National University of Singapore (NUS). Before joining NUS, I obtained my Bachelor’s and Master’s degrees in economics from the Chinese University of Hong Kong (CUHK).
 
 Research Interests: Industrial Organization, Platform Economics, Digital Economy
 
