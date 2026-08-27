@@ -133,9 +133,8 @@ calendar: false
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
-  /* THE DIAGNOSTIC TEST */
-  .post-content ul li,
-  .post-content ul li p {
-    font-weight: 500 !important; 
+  /* AGGRESSIVE BULLET POINT RULE */
+  li, li p, li span {
+    font-weight: 400 !important; /* Change this to 300, 350, or 400 based on preference */
   }
 </style>
