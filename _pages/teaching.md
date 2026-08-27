@@ -135,6 +135,6 @@ calendar: false
 
   /* INCREASE FONT THICKNESS */
   body, p, ul, ol, li, a, td, th {
-    font-weight: 500 !important; 
+    font-weight: 400 !important; 
   }
 </style>
