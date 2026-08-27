@@ -215,12 +215,12 @@ nav_order: 2
   /* 2. FORCE BULLET POINTS TO YOUR PREFERRED THICKNESS */
   article.post ul li,
   .post-content ul li {
-    font-weight: 350 !important; /* Change this to 300 for thinner, or 400/500 for thicker */
+    font-weight: 400 !important; /* Change this to 300 for thinner, or 400/500 for thicker */
   }
 
   /* 3. ENSURE YOUR BOLD HEADERS ACTUALLY STAY BOLD */
   strong, b {
-    font-weight: 500 !important; 
+    font-weight: 400 !important;
   }
 
 </style>
