@@ -209,7 +209,7 @@ nav_order: 2
 
   /* 1. SET THE BASE THICKNESS FOR THE WHOLE PAGE (Normal) */
   body, p, span {
-    font-weight: 350 !important; 
+    font-weight: 400 !important; 
   }
 
   /* 2. FORCE BULLET POINTS TO YOUR PREFERRED THICKNESS */
