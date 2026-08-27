@@ -133,19 +133,9 @@ calendar: false
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
-  /* 1. SET THE BASE THICKNESS FOR THE WHOLE PAGE (Normal) */
-  body, p, span {
-    font-weight: 350 !important; 
-  }
-
-  /* 2. FORCE BULLET POINTS TO YOUR PREFERRED THICKNESS */
-  article.post ul li,
-  .post-content ul li {
-    font-weight: 400 !important; /* Change this to 300 for thinner, or 400/500 for thicker */
-  }
-
-  /* 3. ENSURE YOUR BOLD HEADERS ACTUALLY STAY BOLD */
-  strong, b {
-    font-weight: 400 !important;
+  /* THE DIAGNOSTIC TEST */
+  .post-content ul li,
+  .post-content ul li p {
+    font-weight: 500 !important; 
   }
 </style>
