@@ -266,7 +266,7 @@ nav_order: 2
       // 3. If we found an HTML button, wrap the title in that link
       if (titleElement && linkUrl) {
         const originalTitleText = titleElement.innerHTML;
-        titleElement.innerHTML = `<a href="${linkUrl}" target="_blank" style="color: #0056b3; text-decoration: underline;">${originalTitleText}</a>`;
+        titleElement.innerHTML = `<a href="${linkUrl}" target="_blank" style="color: #0056b3; text-decoration: none;">${originalTitleText}</a>`;
         
         // 4. Hide the original HTML button so it doesn't clutter the page
         htmlButton.style.display = 'none';
