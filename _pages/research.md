@@ -209,7 +209,7 @@ nav_order: 2
 
   /* 3. FORCE ALL TEXT IN THE BIBLIOGRAPHY TO BE THICKER */
   .publications,
-  .publications * {
+  .publications *:not(i):not(svg) {
     font-weight: 400 !important;
   }
 
