@@ -214,6 +214,37 @@
       }
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    /* TURN TITLES INTO LINKS & HIDE THE HTML BUTTON */
+    // 1. Look at every single paper in the bibliography
+    const papers = document.querySelectorAll('.publications li');
+    
+    papers.forEach(function(paper) {
+      const titleElement = paper.querySelector('.title');
+      const buttons = paper.querySelectorAll('.links a');
+      
+      let linkUrl = null;
+      let htmlButton = null;
+      
+      // 2. Find the button labeled "HTML"
+      buttons.forEach(function(btn) {
+        if (btn.innerText.trim() === 'HTML') {
+          linkUrl = btn.href;
+          htmlButton = btn;
+        }
+      });
+
+      // 3. If we found an HTML button, wrap the title in that link
+      if (titleElement && linkUrl) {
+        const originalTitleText = titleElement.innerHTML;
+        titleElement.innerHTML = `<a href="${linkUrl}" target="_blank" style="color: inherit; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #0056b3;">${originalTitleText}</a>`;
+        
+        // 4. Hide the original HTML button so it doesn't clutter the page
+        htmlButton.style.display = 'none';
+      }
+    });
+  });
 </script> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
