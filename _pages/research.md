@@ -206,7 +206,15 @@ nav_order: 2
     border-bottom: 0.2px solid var(--global-theme-color) !important;
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
-  
+
+  /* 3. INCREASE FONT THICKNESS FOR BIBLIOGRAPHY DETAILS */
+  .publications span,
+  .publications em,
+  .publications i,
+  .publications .abstract p,
+  .publications .presentations-block {
+    font-weight: 500 !important;
+  }
 </style>
 
 <script>
