@@ -133,13 +133,4 @@ calendar: false
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
-  /* 1. INCREASE FONT THICKNESS FOR REGULAR TEXT */
-  body, p, ul, ol, li, td, th {
-    font-weight: 350 !important; 
-  }
-
-  /* 2. FORCE LINKS TO STAY AT ORIGINAL THICKNESS */
-  a {
-    font-weight: 400 !important;
-  }
 </style>
