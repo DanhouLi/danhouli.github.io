@@ -149,6 +149,10 @@ Happy to connect and chat!
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
+  /* INCREASE FONT THICKNESS */
+  body, p, ul, ol, li, a, td, th {
+    font-weight: 500 !important; 
+  }
 </style>
 
 <script>
