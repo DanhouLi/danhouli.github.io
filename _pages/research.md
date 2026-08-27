@@ -213,7 +213,7 @@ nav_order: 2
   .publications i,
   .publications .abstract p,
   .publications .presentations-block {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
   }
 </style>
 
