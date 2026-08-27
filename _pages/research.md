@@ -13,7 +13,7 @@ nav_order: 2
 
 </div>
 
-<p style="margin-left: 180px; font-size: 0.9rem; font-weight: 400;font-style: italic; margin-top: 30px; color: #666;">
+<p style="margin-left: 180px; font-size: 0.9rem; font-weight: 400;font-style: italic; margin-top: 30px;">
   (including scheduled. * presented by a coauthor)
 </p>
 
