@@ -209,7 +209,7 @@ nav_order: 2
 
   /* INCREASE FONT THICKNESS */
   body, p, ul, ol, li, a, td, th {
-    font-weight: 400 !important; 
+    font-weight: 300 !important; 
   }
 </style>
 
