@@ -133,4 +133,8 @@ calendar: false
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
+  /* CHANGE FONT WEIGHT FOR BULLET POINTS */
+  .post-content ul li {
+    font-weight: 400 !important; 
+  }
 </style>
