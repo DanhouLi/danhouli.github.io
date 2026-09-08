@@ -45,7 +45,7 @@ nav_order: 2
   
   /* Shrink the main page title */
   header.post-header .post-title {
-    font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
+    font-size: 1.8rem !important; /* Default is usually around 2.5rem to 3rem */
   }
 
   /* 1. STRIP THE HEADER BOX */
