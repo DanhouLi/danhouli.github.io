@@ -37,7 +37,7 @@ nav_order: 2
  /* Increase font size of coauthor information and publication status */
  .publications .additional_info,
  .publications .note {
-   font-size: 1.1em !important;
+   font-size: 1.3em !important;
  }
   /* Shrink the main page title */
   header.post-header .post-title {
