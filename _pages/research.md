@@ -21,7 +21,7 @@ nav_order: 2
 
 <h2 style="font-size: 1.75rem; margin-bottom: 20px;">Work in Progress</h2>
 
-<ul style="padding-left: 20px;">
+<ul class="work-in-progress" style="padding-left: 20px;">
   <li style="margin-bottom: 10px;">
     <strong>Platform Information Disclosure under Disintermediation</strong> 
     <span style="font-size: 1.2em; display: none;">with Coauthor Name</span>
@@ -37,6 +37,12 @@ nav_order: 2
   .publications .periodical {
    font-size: 1.05em !important;
   }
+
+  /* Increase the font size of Work in Progress titles */
+.work-in-progress li strong {
+  font-size: 1.1em !important;
+}
+  
   /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
