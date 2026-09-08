@@ -34,11 +34,9 @@ nav_order: 2
     font-size: 1.2em !important;
   }
   
- /* Increase font size of coauthor information and publication status */
- .publications .additional_info,
- .publications .note {
-   font-size: 1.3em !important;
- }
+  .publications .periodical {
+   font-size: 1.1em !important;
+  }
   /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
