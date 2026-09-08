@@ -31,7 +31,7 @@ My recent projects focus on platform leakage (disintermediation) and price discr
 
 Happy to connect and chat!
 
-<p>Here is my <a href="{{ '/assets/pdf/Danhou_Li_CV.pdf' | relative_url }}" target="_blank" style="color: #0056b3 !important; text-decoration: underline !important;">CV</a>.</p>
+<p>Here is my <a href="{{ 'assets/pdf/Danhou_Li_CV.pdf' | relative_url }}" target="_blank" style="color: #0056b3 !important; text-decoration: underline !important;">CV</a>.</p>
 
 <p>Email: <a href="mailto:danhou@u.nus.edu" style="color: #0056b3 !important; text-decoration: underline !important;">danhou@u.nus.edu</a></p>
 </div>
