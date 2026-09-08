@@ -13,7 +13,7 @@ nav_order: 2
 
 </div>
 
-<p style="margin-left: 180px; font-size: 0.9rem; font-weight: 400;font-style: italic; margin-top: 30px;">
+<p style="margin-left: 180px; font-size: 1rem; font-weight: 400;font-style: italic; margin-top: 30px;">
   (including scheduled. * presented by a coauthor)
 </p>
 
@@ -24,7 +24,7 @@ nav_order: 2
 <ul style="padding-left: 20px;">
   <li style="margin-bottom: 10px;">
     <strong>Platform Information Disclosure under Disintermediation</strong> 
-    <span style="font-size: 1em; display: none;">with Coauthor Name</span>
+    <span style="font-size: 1.1em; display: none;">with Coauthor Name</span>
   </li>
 </ul>
 
@@ -80,12 +80,13 @@ nav_order: 2
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
 
-  .publications ol.bibliography,
-.publications ol.bibliography li {
-  width: 120% !important;
-  max-width: none !important;
+  /* Make the research page wider and keep it centered */
+main.container {
+  max-width: 1300px !important;
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-
   /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
     font-size: 0.8rem !important;
