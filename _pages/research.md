@@ -24,7 +24,7 @@ nav_order: 2
 <ul style="padding-left: 20px;">
   <li style="margin-bottom: 10px;">
     <strong>Platform Information Disclosure under Disintermediation</strong> 
-    <span style="font-size: 1.1em; display: none;">with Coauthor Name</span>
+    <span style="font-size: 1.2em; display: none;">with Coauthor Name</span>
   </li>
 </ul>
 
@@ -35,7 +35,7 @@ nav_order: 2
   }
   
   .publications .periodical {
-   font-size: 1.1em !important;
+   font-size: 1.05em !important;
   }
   /* Shrink the main page title */
   header.post-header .post-title {
@@ -82,7 +82,7 @@ nav_order: 2
 
   /* Make the research page wider and keep it centered */
 main.container {
-  max-width: 1300px !important;
+  max-width: 1500px !important;
   width: 90% !important;
   margin-left: auto !important;
   margin-right: auto !important;
