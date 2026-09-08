@@ -84,7 +84,7 @@ nav_order: 2
 
   .publications ol.bibliography,
 .publications ol.bibliography li {
-  width: 80% !important;
+  width: 120% !important;
   max-width: none !important;
 }
 
