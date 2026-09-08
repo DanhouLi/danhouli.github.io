@@ -50,11 +50,17 @@
 
   /* Expand the page content to match, but force it to stay perfectly centered */
   article.post, .post-content {
-    max-width: 120% !important;
+    max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
   }
+
+  .publications ol.bibliography,
+.publications ol.bibliography li {
+  width: 80% !important;
+  max-width: none !important;
+}
 
   /* 2. SHRINK THE FOOTER */
   footer, footer.fixed-bottom, footer .container {
