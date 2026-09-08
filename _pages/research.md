@@ -33,7 +33,12 @@ nav_order: 2
   .publications .title {
     font-size: 1.2em !important;
   }
-
+  
+ /* Increase font size of coauthor information and publication status */
+ .publications .additional_info,
+ .publications .note {
+   font-size: 1.1em !important;
+ }
   /* Shrink the main page title */
   header.post-header .post-title {
     font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
@@ -69,9 +74,9 @@ nav_order: 2
     flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
   }
 
-  /* Expand the about page content to match, but force it to stay perfectly centered */
+  /* Expand the page content to match, but force it to stay perfectly centered */
   article.post, .post-content {
-    max-width: 100% !important;
+    max-width: 120% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
