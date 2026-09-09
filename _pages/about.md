@@ -118,9 +118,10 @@ Happy to connect and chat!
 
   /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
-    font-weight: 400 !important; /* Change to 600 or "bold" if you want them even thicker! */
-    font-size: 1.1rem !important;
-  }
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.2 !important;
+}
 
   /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
   nav .navbar-nav .nav-item.active .nav-link,
