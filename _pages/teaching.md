@@ -137,4 +137,9 @@ calendar: false
   li, li p, li span {
     font-weight: 400 !important; /* Change this to 300, 350, or 400 based on preference */
   }
+
+  /* INCREASE TEACHING PAGE TEXT SIZE */
+.post-content {
+  font-size: 1.1rem !important;
+}
 </style>
