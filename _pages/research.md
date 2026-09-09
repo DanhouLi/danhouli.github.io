@@ -133,32 +133,7 @@ main.container {
   /* =========================================
      NEW STYLES FOR BUTTONS AND ABSTRACT BOXES
      ========================================= */
-
-  /* 1. UPGRADE THE ABSTRACT BUTTONS */
-  .publications .links a.btn, 
-  .publications .links a.badge,
-  .publications .links a {
-    background-color: #f8f9fa !important; /* Light modern gray background */
-    color: #495057 !important; /* Dark gray text */
-    border: 1px solid #ced4da !important; /* Soft, clean border */
-    border-radius: 5px !important; /* Modern rounded corners */
-    padding: 4px 12px !important; /* Better spacing inside the button */
-    font-size: 0.9em !important;
-    font-weight: 500 !important; /* Slightly bold text */
-    transition: all 0.2s ease-in-out !important; /* Smooth animation */
-    box-shadow: none !important; /* Removes the harsh black box look */
-    text-decoration: none !important;
-  }
-
-  /* Add a hover effect so the button reacts to the mouse */
-  .publications .links a.btn:hover, 
-  .publications .links a.badge:hover,
-  .publications .links a:hover {
-    background-color: #e9ecef !important; /* Slightly darker gray on hover */
-    color: #000 !important; /* Text turns pure black on hover */
-    border-color: #adb5bd !important;
-  }
-
+  
   /* =========================================
    ABSTRACT BUTTON
    ========================================= */
@@ -191,6 +166,19 @@ main.container {
   color: #ffffff !important;
   border-color: #0056b3 !important;
 }
+
+  /* 2. UPGRADE THE ABSTRACT CONTENT BOX */ 
+  .publications .abstract { border: none !important; /* THIS IS THE MAGIC LINE: Nukes the default dashed border! */ 
+                           background: none !important; /* Removes any default background */ 
+                           padding: 0 !important; /* Removes outer padding to fix the peek-a-boo glitch */ 
+                           margin-top: 10px !important; } 
+  .publications .abstract p { text-align: left !important; /* Forces text to left-align */ 
+                             border: 1px solid #eaecf0 !important; /* Soft gray border for your new box */ 
+                             background-color: #fdfdfd !important; /* Soft off-white background */ 
+                             border-radius: 8px !important; /* Rounded corners */ 
+                             padding: 10px 15px !important; /* Inner spacing */ 
+                             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Soft shadow */ 
+                             font-size: 1rem !important; line-height: 1.6 !important; margin: 0 0 10px 0 !important; }
 
   /* 3. SHRINK THE GAP ABOVE PRESENTATIONS */
   .publications .presentations-block {
