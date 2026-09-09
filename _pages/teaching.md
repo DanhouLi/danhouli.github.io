@@ -29,6 +29,9 @@ calendar: false
 </div>
 
 <style>
+  html {
+  overflow-y: scroll;
+}
 
   /* ================================
      PAGE TITLE
