@@ -9,6 +9,8 @@ calendar: false
 
 <hr class="teaching-divider">
 
+<div class="teaching-content">
+
 **Teaching Assistant, National University of Singapore**
 
 * RE6010 Applied Microeconomic Theory (PhD level, Instructor: Prof. Zhonglin Li), Fall 2026
@@ -23,6 +25,8 @@ calendar: false
 **Mentor, National University of Singapore**
 
 * Economic Research Workshop (undergraduate), Fall 2025
+
+</div>
 
 <style>
   /* Shrink the main page title */
@@ -139,8 +143,11 @@ calendar: false
     font-weight: 400 !important; /* Change this to 300, 350, or 400 based on preference */
   }
 
-  /* INCREASE TEACHING PAGE TEXT SIZE */
-.post-content {
-  font-size: 1.2rem !important;
+  /* INCREASE ALL TEACHING CONTENT FONT SIZE */
+article.post .post-content p,
+article.post .post-content li,
+article.post .post-content ul,
+article.post .post-content strong {
+  font-size: 1.1rem !important;
 }
 </style>
