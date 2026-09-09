@@ -9,7 +9,7 @@ calendar: false
 
 <hr class="teaching-divider">
 
-<div class="teaching-content">
+<div class="teaching-content" markdown="1">
 
 **Teaching Assistant, National University of Singapore**
 
@@ -29,109 +29,132 @@ calendar: false
 </div>
 
 <style>
+
+  /* ================================
+     PAGE TITLE
+     ================================ */
+
   /* Shrink the main page title */
   header.post-header .post-title {
-    font-size: 2rem !important; /* Default is usually around 2.5rem to 3rem */
+    font-size: 2rem !important;
   }
 
-  /* 1. STRIP THE HEADER BOX */
+
+  /* ================================
+     PAGE LAYOUT
+     ================================ */
+
+  /* Remove extra space below the page header */
   header.post-header {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
   }
 
-  /* 2. STRIP THE CONTENT BOX */
-  .post-content, article.post {
+  /* Remove extra space above the page content */
+  .post-content,
+  article.post {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
-  /* 3. CONTROL THE LINE EXACTLY */
-  hr.teaching-divider {
-    margin-top: 30px !important; /* Increase this if it is TOO close now! */
-    margin-bottom: 40px !important;
-    border-top: 1px solid #ddd !important;
-  }
-    
-  /* 6. Push the footer to the absolute bottom of the screen */
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Forces the body to be at least the height of your screen */
-  }
-  
-  body > .container, body > div.container {
-    flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
-  }
-
-  /* Expand the about page content to match, but force it to stay perfectly centered */
-  article.post, .post-content {
+  /* Keep the content wide and centered */
+  article.post,
+  .post-content {
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
-  }
-    
-  /* 2. SHRINK THE FOOTER */
-  footer, footer.fixed-bottom, footer .container {
-    font-size: 0.8rem !important;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
-    margin-top: 0px !important;
-    height: auto !important;
-    text-align: left !important;
-  }
-  
-  /* (Optional) Force the footer to stay at the bottom of short pages */
-  body {
-    display: flex !important;
-    flex-direction: column !important;
-    min-height: 100vh !important;
-  }
-  .container {
-    flex-grow: 1 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
-  /* TEACHING PAGE SPACING */
-  /* 1. Reduce the gap between the title and the bullet points */
-  p {
-    margin-bottom: 5px !important; /* Shrinks the space below the title. Default is usually ~16px */
-    font-size: 1.1em !important;
+
+  /* ================================
+     DIVIDER
+     ================================ */
+
+  hr.teaching-divider {
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+    border-top: 1px solid #ddd !important;
   }
 
-  /* THICKER NAVIGATION BUTTONS */
+
+  /* ================================
+     TEACHING CONTENT
+     ================================ */
+
+  /* Increase the size of all teaching-page text */
+  .teaching-content {
+    font-size: 1.15rem !important;
+  }
+
+  /* Section headings */
+  .teaching-content p,
+  .teaching-content p strong,
+  .teaching-content strong {
+    font-size: 1.15rem !important;
+  }
+
+  /* Course entries */
+  .teaching-content ul,
+  .teaching-content li,
+  .teaching-content li p,
+  .teaching-content li span {
+    font-size: 1.15rem !important;
+  }
+
+  /* Reduce space between section headings and bullet lists */
+  .teaching-content p {
+    margin-bottom: 5px !important;
+  }
+
+  /* Bullet-point font weight */
+  .teaching-content li,
+  .teaching-content li p,
+  .teaching-content li span {
+    font-weight: 400 !important;
+  }
+
+
+  /* ================================
+     NAVIGATION BAR
+     ================================ */
+
+  /* Navigation links */
   nav .navbar-nav .nav-link {
-  font-weight: 400 !important;
-  font-size: 1.1rem !important;
-  line-height: 1.2 !important;
-}
-
-  /* CHANGE NAV BAR NAME FONT THICKNESS */
-  nav .navbar-brand {
-    font-weight: 400 !important; 
+    font-weight: 400 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.2 !important;
   }
 
-  /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
+  /* Website name in navbar */
+  nav .navbar-brand {
+    font-weight: 400 !important;
+  }
+
+  /* Active page and hover color */
   nav .navbar-nav .nav-item.active .nav-link,
   nav .navbar-nav .nav-link.active,
   nav .navbar-nav .nav-link:hover {
-    color: #0056b3 !important; /* A nice, professional dark blue */
+    color: #0056b3 !important;
   }
 
-  /* 1. OVERRIDE THE TEMPLATE'S MASTER PURPLE VARIABLE */
+  /* Override the template's theme color */
   :root {
-    --global-theme-color: #0056b3 !important; 
+    --global-theme-color: #0056b3 !important;
   }
 
-  /* 2. HIDE THE BORDER AT THE TOP OF THE PAGE */
+  /* Hide navbar border at the top of the page */
   header nav.navbar {
     border-bottom: 0.2px solid transparent !important;
     box-shadow: none !important;
-    transition: all 0.3s ease-in-out !important;
+
+    /* Only animate border/shadow to prevent page jumping */
+    transition: border-color 0.3s ease-in-out,
+                box-shadow 0.3s ease-in-out !important;
   }
 
-  /* 3. FORCE BLUE ONLY WHEN SCROLLING DOWN */
-  /* (Removed the permanent "fixed-top" class from here!) */
+  /* Show blue border when scrolling */
   header nav.navbar.scrolled,
   header nav.navbar.top-nav-collapse,
   header nav.navbar.auto-hiding-navbar {
@@ -139,26 +162,33 @@ calendar: false
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
-  /* AGGRESSIVE BULLET POINT RULE */
-  li, li p, li span {
-    font-weight: 400 !important; /* Change this to 300, 350, or 400 based on preference */
+
+  /* ================================
+     FOOTER
+     ================================ */
+
+  /* Push footer toward the bottom on short pages */
+  body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
   }
 
-  /* MAKE TEACHING TEXT LARGER */
-.post-content p {
-  font-size: 1.15rem !important;
-}
+  body > .container,
+  body > div.container {
+    flex-grow: 1 !important;
+  }
 
-.post-content li {
-  font-size: 1.15rem !important;
-}
+  /* Make footer smaller */
+  footer,
+  footer.fixed-bottom,
+  footer .container {
+    font-size: 0.8rem !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-top: 0 !important;
+    height: auto !important;
+    text-align: left !important;
+  }
 
-.post-content li p,
-.post-content li span {
-  font-size: inherit !important;
-}
-
-  p {
-  margin-bottom: 5px !important;
-}
 </style>
