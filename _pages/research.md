@@ -159,25 +159,38 @@ main.container {
     border-color: #adb5bd !important;
   }
 
-  /* 2. UPGRADE THE ABSTRACT CONTENT BOX */
-  .publications .abstract {
-    border: none !important; /* THIS IS THE MAGIC LINE: Nukes the default dashed border! */
-    background: none !important; /* Removes any default background */
-    padding: 0 !important; /* Removes outer padding to fix the peek-a-boo glitch */
-    margin-top: 10px !important; 
-  }
+  /* =========================================
+   ABSTRACT BUTTON
+   ========================================= */
 
-  .publications .abstract p {
-    text-align: left !important; /* Forces text to left-align */
-    border: 1px solid #eaecf0 !important; /* Soft gray border for your new box */
-    background-color: #fdfdfd !important; /* Soft off-white background */
-    border-radius: 8px !important; /* Rounded corners */
-    padding: 10px 15px !important; /* Inner spacing */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important; /* Soft shadow */
-    font-size: 1rem !important; 
-    line-height: 1.6 !important; 
-    margin: 0 0 10px 0 !important;
-  }
+/* Default state: white background, blue text, blue border */
+.publications .links a.btn,
+.publications .links a.badge,
+.publications .links a {
+  background-color: #ffffff !important;
+  color: #0056b3 !important;
+  border: 1px solid #0056b3 !important;
+  border-radius: 5px !important;
+  padding: 4px 12px !important;
+  font-size: 0.9em !important;
+  font-weight: 500 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+
+  transition:
+    background-color 0.2s ease-in-out,
+    color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out !important;
+}
+
+/* Hover: blue background, white text */
+.publications .links a.btn:hover,
+.publications .links a.badge:hover,
+.publications .links a:hover {
+  background-color: #0056b3 !important;
+  color: #ffffff !important;
+  border-color: #0056b3 !important;
+}
 
   /* 3. SHRINK THE GAP ABOVE PRESENTATIONS */
   .publications .presentations-block {
