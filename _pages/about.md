@@ -159,6 +159,16 @@ Happy to connect and chat!
   body, p, ul, ol, li, a, td, th {
     font-weight: 400 !important; 
   }
+
+  /* RESTORE DEFAULT FOOTER FONT WEIGHT */
+footer,
+footer p,
+footer a,
+footer span,
+footer div,
+footer .container {
+  font-weight: 300 !important;
+}
 </style>
 
 <script>
