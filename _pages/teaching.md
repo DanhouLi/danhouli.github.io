@@ -143,11 +143,21 @@ calendar: false
     font-weight: 400 !important; /* Change this to 300, 350, or 400 based on preference */
   }
 
-  /* INCREASE ALL TEACHING CONTENT FONT SIZE */
-article.post .post-content p,
-article.post .post-content li,
-article.post .post-content ul,
-article.post .post-content strong {
-  font-size: 1.1rem !important;
+  /* MAKE TEACHING TEXT LARGER */
+.post-content p {
+  font-size: 1.15rem !important;
+}
+
+.post-content li {
+  font-size: 1.15rem !important;
+}
+
+.post-content li p,
+.post-content li span {
+  font-size: inherit !important;
+}
+
+  p {
+  margin-bottom: 5px !important;
 }
 </style>
