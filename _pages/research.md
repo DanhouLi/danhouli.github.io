@@ -29,6 +29,11 @@ nav_order: 2
 </ul>
 
 <style>
+  
+  html {
+  overflow-y: scroll;
+}
+  
   /* 1. Increase the font size of all publication titles */
   .publications .title {
     font-size: 1.2em !important;
@@ -112,15 +117,9 @@ main.container {
   .container {
     flex-grow: 1 !important;
   }
-
-  /* Nudge the right-side menu buttons to perfectly align with other pages */
-  nav .navbar-collapse, nav .navbar-nav {
-    margin-right: -3.9px !important; /* Increase this to push buttons further left, or decrease to push right */
-  }
   
   /* Dial back the navigation name nudge */
   nav .navbar-brand {
-    margin-left: 7.7px !important; /* Try 0px first. If it needs a tiny push, try 2px or 3px */
     font-weight: 400 !important;
   }
   
