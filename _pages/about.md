@@ -37,6 +37,10 @@ Happy to connect and chat!
 </div>
 
 <style>
+  html {
+  overflow-y: scroll;
+}
+  
   /* Import the clean, modern Roboto font */
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
   
