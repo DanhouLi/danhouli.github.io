@@ -142,10 +142,12 @@ Happy to connect and chat!
     padding-right: 0px !important; /* Increase this to push buttons further left, or decrease to push right */
   }
 
-  /* THICKER NAVIGATION BUTTONS */
-  nav .navbar-nav .nav-link {
-    font-weight: 400 !important;
-  }
+  /* NAVIGATION BUTTONS */
+nav .navbar-nav .nav-link {
+  font-weight: 400 !important;
+  transform: scale(1.1);
+  transform-origin: center;
+}
 
   /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
   nav .navbar-nav .nav-item.active .nav-link,
