@@ -143,9 +143,8 @@ Happy to connect and chat!
   header nav.navbar {
   border-bottom: 0.2px solid transparent !important;
   box-shadow: none !important;
-  transition: border-color 0.3s ease-in-out,
-              box-shadow 0.3s ease-in-out !important;
-  }
+  transition: none !important;
+}
 
   /* 3. FORCE BLUE ONLY WHEN SCROLLING DOWN */
   /* (Removed the permanent "fixed-top" class from here!) */
