@@ -41,9 +41,6 @@ Happy to connect and chat!
   overflow-y: scroll;
 }
   
-  /* Import the clean, modern Roboto font */
-  /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');*/
-  
   /* 1. Hide the giant name block on the homepage */
   .post-header, h1.post-title {
     display: none !important;
@@ -181,7 +178,7 @@ footer .container {
       
       /* Use the exact template classes used on your other pages */
       myName.className = 'navbar-brand title font-weight-lighter';
-      myName.href = '/'; 
+      myName.href = "{{ '/' | relative_url }}";
       myName.innerText = 'Danhou Li';
       
       myName.style.fontFamily = "'Roboto', sans-serif";
