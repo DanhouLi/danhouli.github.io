@@ -107,9 +107,10 @@
 
   /* 2. HIDE THE BORDER AT THE TOP OF THE PAGE */
   header nav.navbar {
-    border-bottom: 0.2px solid transparent !important;
-    box-shadow: none !important;
-    transition: all 0.3s ease-in-out !important;
+  border-bottom: 0.2px solid transparent !important;
+  box-shadow: none !important;
+  transition: border-color 0.3s ease-in-out,
+              box-shadow 0.3s ease-in-out !important;
   }
 
   /* 3. FORCE BLUE ONLY WHEN SCROLLING DOWN */
