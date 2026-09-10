@@ -172,7 +172,20 @@ footer .container {
 }
 </style>
 
-<!--
+/* KEEP NAVBAR HEIGHT STABLE */
+header nav.navbar {
+  min-height: 56px !important;
+  border-bottom: 0.2px solid transparent !important;
+  box-shadow: none !important;
+  transition: border-color 0.3s ease-in-out,
+              box-shadow 0.3s ease-in-out !important;
+}
+
+header nav.navbar .container {
+  min-height: 56px !important;
+  align-items: center !important;
+}
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* 1. EXACT CLONE OF THE NAVBAR NAME */
@@ -194,4 +207,3 @@ footer .container {
     }
   });
 </script>
---!>
