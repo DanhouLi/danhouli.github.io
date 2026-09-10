@@ -252,37 +252,14 @@ Happy to connect and chat!
 </style>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-
-    /*
-     * The About layout does not generate the navbar brand,
-     * so create "Danhou Li" when necessary.
-     */
-    const navbarContainer =
-      document.querySelector("nav .container") ||
-      document.querySelector("nav");
-
-    if (navbarContainer && !document.querySelector(".navbar-brand")) {
-
-      const myName = document.createElement("a");
-
-      myName.className =
-        "navbar-brand title font-weight-lighter";
-
-      myName.innerText = "Danhou Li";
-
-      /*
-       * No href:
-       * On the About page the name is displayed
-       * but does not reload the current page.
-       */
-      myName.style.display = "inline-block";
-      myName.style.fontWeight = "400";
-
-      navbarContainer.insertBefore(
-        myName,
-        navbarContainer.firstChild
-      );
-    }
-  });
+  document.addEventListener("DOMContentLoaded", function() { /* 1. EXACT CLONE OF THE NAVBAR NAME */ 
+    const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav'); 
+    if (navbarContainer && !document.querySelector('.navbar-brand')) { const myName = document.createElement('a'); 
+    /* Use the exact template classes used on your other pages */ 
+    myName.className = 'navbar-brand title font-weight-lighter'; 
+    myName.innerText = 'Danhou Li'; 
+    myName.style.fontFamily = "'Roboto', sans-serif"; 
+    myName.style.display = 'inline-block'; 
+    myName.style.fontWeight = '400';
+    navbarContainer.insertBefore(myName, navbarContainer.firstChild); } });
 </script>
