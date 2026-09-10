@@ -170,7 +170,20 @@ footer div,
 footer .container {
   font-weight: 300 !important;
 }
-  
+
+  /* KEEP NAVBAR HEIGHT STABLE */
+header nav.navbar {
+  min-height: 30px !important;
+  border-bottom: 0.2px solid transparent !important;
+  box-shadow: none !important;
+  transition: border-color 0.3s ease-in-out,
+              box-shadow 0.3s ease-in-out !important;
+}
+
+header nav.navbar .container {
+  min-height: 56px !important;
+  align-items: center !important;
+}
 </style>
 
 <script>
