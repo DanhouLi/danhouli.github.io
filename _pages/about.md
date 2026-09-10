@@ -147,6 +147,8 @@ nav .navbar-nav .nav-link {
   font-weight: 400 !important;
   transform: scale(1.1);
   transform-origin: center;
+  margin-left: 3px !important;
+  margin-right: 3px !important;
 }
 
   /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
