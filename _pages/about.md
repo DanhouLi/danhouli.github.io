@@ -170,20 +170,21 @@ footer .container {
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    /* 1. EXACT CLONE OF THE NAVBAR NAME */
-    const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav');
-    
+    /* CREATE THE NAVBAR NAME ON THE ABOUT PAGE */
+    const navbarContainer =
+      document.querySelector('nav .container') || document.querySelector('nav');
+
     if (navbarContainer && !document.querySelector('.navbar-brand')) {
-      const myName = document.createElement('a');
-      
-      /* Use the exact template classes used on your other pages */
+      const myName = document.createElement('span');
+
+      /* Use the same template classes as on the other pages */
       myName.className = 'navbar-brand title font-weight-lighter';
       myName.innerText = 'Danhou Li';
-      
+
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
       myName.style.fontWeight = '400';
-      
+
       navbarContainer.insertBefore(myName, navbarContainer.firstChild);
     }
   });
