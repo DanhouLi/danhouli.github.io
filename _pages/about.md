@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
@@ -40,9 +40,9 @@ Happy to connect and chat!
 
 <style>
 
-  /*html {
+  html {
     overflow-y: scroll;
-  }*/
+  }
 
   /* 1. Hide the giant name block on the homepage */
   .post-header,
