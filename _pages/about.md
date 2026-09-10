@@ -40,9 +40,9 @@ Happy to connect and chat!
 
 <style>
 
-  html {
+  /*html {
     overflow-y: scroll;
-  }
+  }*/
 
   /* 1. Hide the giant name block on the homepage */
   .post-header,
