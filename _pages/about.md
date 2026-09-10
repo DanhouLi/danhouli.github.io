@@ -178,7 +178,7 @@ footer .container {
       
       /* Use the exact template classes used on your other pages */
       myName.className = 'navbar-brand title font-weight-lighter';
-      myName.href = "{{ '/' | relative_url }}";
+      myName.href = '#';
       myName.innerText = 'Danhou Li';
       
       myName.style.fontFamily = "'Roboto', sans-serif";
