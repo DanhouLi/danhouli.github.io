@@ -52,13 +52,13 @@ Happy to connect and chat!
 
   /* 2. Force the name to appear in the top navbar on the homepage */
   /* Targets both old Bootstrap and new Tailwind title classes */
-  nav .navbar-brand,
+  /*nav .navbar-brand,
   nav .title,
   header .title {
     display: block !important;
     opacity: 1 !important;
     visibility: visible !important;
-  }
+  } */
 
   /* 3. Apply the new sans-serif font to all text */
   body,
