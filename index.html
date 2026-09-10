@@ -139,12 +139,12 @@ footer .container {
       document.querySelector('nav .container') || document.querySelector('nav');
 
     if (navbarContainer && !document.querySelector('.navbar-brand')) {
-      const myName = document.createElement('span');
+      const myName = document.createElement('a');
 
-      /* Use the same template classes as on the other pages */
       myName.className = 'navbar-brand title font-weight-lighter';
-      myName.innerText = 'Danhou Li';
       myName.href = '#';
+      myName.innerText = 'Danhou Li';
+
       myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
       myName.style.fontWeight = '400';
