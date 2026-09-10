@@ -117,8 +117,15 @@ Happy to connect and chat!
     padding-right: 0px !important; /* Increase this to push buttons further left, or decrease to push right */
   }
 
-  /* THICKER NAVIGATION BUTTONS */
-  nav .navbar-nav .nav-link {
+  /* NAVIGATION BUTTONS */
+nav .navbar-nav .nav-link {
+  font-weight: 400 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.2 !important;
+}
+
+/* NAVIGATION NAME */
+nav .navbar-brand {
   font-weight: 400 !important;
   font-size: 1.1rem !important;
   line-height: 1.2 !important;
@@ -170,7 +177,6 @@ footer .container {
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    /* CREATE THE NAVBAR NAME ON THE ABOUT PAGE */
     const navbarContainer =
       document.querySelector('nav .container') || document.querySelector('nav');
 
@@ -178,10 +184,8 @@ footer .container {
       const myName = document.createElement('a');
 
       myName.className = 'navbar-brand title font-weight-lighter';
-      myName.href = '#';
       myName.innerText = 'Danhou Li';
 
-      myName.style.fontFamily = "'Roboto', sans-serif";
       myName.style.display = 'inline-block';
       myName.style.fontWeight = '400';
 
