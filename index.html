@@ -136,27 +136,24 @@ footer div,
 footer .container {
   font-weight: 300 !important;
 }
-</style> <script>
+</style> <p>&lt;!– <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* 1. EXACT CLONE OF THE NAVBAR NAME */
-    const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav');
-    
-    if (navbarContainer && !document.querySelector('.navbar-brand')) {
-      const myName = document.createElement('a');
-      
-      /* Use the exact template classes used on your other pages */
-      myName.className = 'navbar-brand title font-weight-lighter';
-      myName.href = '/'; 
-      myName.innerText = 'Danhou Li';
-      
-      myName.style.fontFamily = "'Roboto', sans-serif";
-      myName.style.display = 'inline-block';
-      myName.style.fontWeight = '400';
-      
-      navbarContainer.insertBefore(myName, navbarContainer.firstChild);
-    }
-  });
-</script> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
+    const navbarContainer = document.querySelector('nav .container') || document.querySelector('nav');</script></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (navbarContainer &amp;&amp; !document.querySelector('.navbar-brand')) {
+  const myName = document.createElement('a');
+  
+  /* Use the exact template classes used on your other pages */
+  myName.className = 'navbar-brand title font-weight-lighter';
+  myName.href = '/'; 
+  myName.innerText = 'Danhou Li';
+  
+  myName.style.fontFamily = "'Roboto', sans-serif";
+  myName.style.display = 'inline-block';
+  myName.style.fontWeight = '400';
+  
+  navbarContainer.insertBefore(myName, navbarContainer.firstChild);
+}   }); &lt;/script&gt;
+</code></pre></div></div> </div> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
