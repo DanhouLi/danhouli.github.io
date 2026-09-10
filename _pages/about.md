@@ -172,6 +172,7 @@ footer .container {
 }
 </style>
 
+<!--
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* 1. EXACT CLONE OF THE NAVBAR NAME */
