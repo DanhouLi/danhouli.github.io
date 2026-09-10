@@ -123,12 +123,14 @@ calendar: false
      NAVIGATION BAR
      ================================ */
 
-  /* Navigation links */
-  nav .navbar-nav .nav-link {
-    font-weight: 400 !important;
-    font-size: 1.1rem !important;
-    line-height: 1.2 !important;
-  }
+  /* NAVIGATION BUTTONS */
+nav .navbar-nav .nav-link {
+  font-weight: 400 !important;
+  transform: scale(1.1);
+  transform-origin: center;
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+}
 
   /* Website name in navbar */
   nav .navbar-brand {
