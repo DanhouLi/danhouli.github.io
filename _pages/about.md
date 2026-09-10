@@ -181,7 +181,7 @@ header nav.navbar {
 }
 
 header nav.navbar .container {
-  min-height: 56px !important;
+  min-height: 30px !important;
   align-items: center !important;
 }
 </style>
