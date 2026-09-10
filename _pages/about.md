@@ -201,7 +201,8 @@ Happy to connect and chat!
 
 </style>
 
-<script>
+<!--
+  <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* 1. EXACT CLONE OF THE NAVBAR NAME */
     const navbarContainer =
@@ -227,3 +228,4 @@ Happy to connect and chat!
     }
   });
 </script>
+-->
