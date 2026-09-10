@@ -9,7 +9,7 @@ profile:
   image: new_photo_website.png
   image_circular: false
   more_info: '<div style="text-align: center; width: 100%; line-height: 1.3;"><div style="font-size: 1.5em; font-weight: 500; margin-bottom: 2px;">Danhou Li <span style="margin-left: 5px;"> 李丹厚</span></div><div style="font-weight: 400; font-size: 1em;">PhD Candidate in Economics<br>National University of Singapore</div></div>'
-  
+
 selected_papers: false
 social: false
 
@@ -40,23 +40,30 @@ Happy to connect and chat!
 
 <style>
 
-  /* =========================================
-     PAGE WIDTH / SCROLLBAR
-     ========================================= */
-
   html {
     overflow-y: scroll;
   }
 
+  /* Import the clean, modern Roboto font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-  /* =========================================
-     PAGE FONT
-     ========================================= */
+  /* 1. Hide the giant name block on the homepage */
+  .post-header,
+  h1.post-title {
+    display: none !important;
+  }
 
-  /*
-   * Do NOT import Roboto from Google Fonts here.
-   * The font download/swap was causing the page jump.
-   */
+  /* 2. Force the name to appear in the top navbar on the homepage */
+  /* Targets both old Bootstrap and new Tailwind title classes */
+  nav .navbar-brand,
+  nav .title,
+  header .title {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* 3. Apply the new sans-serif font to all text */
   body,
   p,
   h1,
@@ -69,149 +76,111 @@ Happy to connect and chat!
   span,
   div,
   .title {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Helvetica, Arial, sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
   }
 
-
-  /* =========================================
-     ABOUT PAGE HEADER
-     ========================================= */
-
-  /* Hide the giant page title on the homepage */
-  .post-header,
-  h1.post-title {
-    display: none !important;
-  }
-
-  /* Allow the navbar name to appear */
-  nav .navbar-brand,
-  nav .title,
-  header .title {
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-
-  /* =========================================
-     PROFILE PHOTO
-     ========================================= */
-
+  /* 4. Resize and perfectly center the profile photo */
   .profile img {
-    max-width: 250px !important;
+    max-width: 250px !important; /* Change this number to adjust size */
     width: 100% !important;
     height: auto !important;
     margin: 0 auto !important;
     display: block !important;
   }
 
-  /* Center the information below the photo */
+  /* 5. Force the container below the photo to align to the center */
   .profile .address,
   .profile .more-info {
     text-align: center !important;
     width: 100% !important;
   }
 
+  /* 6. Push the footer to the absolute bottom of the screen */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Forces the body to be at least the height of your screen */
+  }
 
-  /* =========================================
-     MAIN PAGE LAYOUT
-     ========================================= */
+  body > .container,
+  body > div.container {
+    flex-grow: 1; /* Forces the middle of the page to stretch and fill the empty space */
+  }
 
+  /* Expand the about page content to match, but force it to stay perfectly centered */
+  article.post,
+  .post-content {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto !important; /* "auto" guarantees it stays dead-center! */
+  }
+
+  /* 2. SHRINK THE FOOTER */
+  footer,
+  footer.fixed-bottom,
+  footer .container {
+    font-size: 0.8rem !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-top: 0px !important;
+    height: auto !important;
+    text-align: left !important;
+  }
+
+  /* (Optional) Force the footer to stay at the bottom of short pages */
   body {
     display: flex !important;
     flex-direction: column !important;
     min-height: 100vh !important;
   }
 
-  body > .container,
-  body > div.container {
+  .container {
     flex-grow: 1 !important;
   }
 
-  article.post,
-  .post-content {
-    max-width: 100% !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+  /* Nudge the right-side menu buttons to perfectly align with other pages */
+  nav .navbar-collapse,
+  nav .navbar-nav {
+    padding-right: 0px !important; /* Increase this to push buttons further left, or decrease to push right */
   }
 
-
-  /* =========================================
-     NAVIGATION BAR
-     ========================================= */
-
-  /*
-   * Give the navbar explicit and consistent
-   * vertical spacing.
-   *
-   * Use these SAME two padding values on
-   * Research and Teaching.
-   */
-  header nav.navbar {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
-
-    border-bottom: 0.2px solid transparent !important;
-    box-shadow: none !important;
-
-    /* Prevent navbar initialization animations */
-    transition: none !important;
-  }
-
-  /* Vertically center everything inside the navbar */
-  header nav.navbar .container {
-    align-items: center !important;
-  }
-
-  /* Right-side navigation buttons */
+  /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
     font-weight: 400 !important;
     font-size: 1.1rem !important;
     line-height: 1.2 !important;
   }
 
-  /*
-   * Navbar name.
-   * Do NOT force font-size or line-height here.
-   * Let the theme use its normal navbar-brand geometry.
-   */
-  nav .navbar-brand {
-    font-weight: 400 !important;
-  }
-
-  /* No manual horizontal nudge */
-  nav .navbar-collapse,
-  nav .navbar-nav {
-    padding-right: 0 !important;
-  }
-
-  /* Active page / hover color */
+  /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
   nav .navbar-nav .nav-item.active .nav-link,
   nav .navbar-nav .nav-link.active,
   nav .navbar-nav .nav-link:hover {
-    color: #0056b3 !important;
+    color: #0056b3 !important; /* A nice, professional dark blue */
   }
 
-  /* Override the template's theme color */
+  /* 1. OVERRIDE THE TEMPLATE'S MASTER PURPLE VARIABLE */
   :root {
     --global-theme-color: #0056b3 !important;
   }
 
-  /* Blue line after scrolling */
+  /* 2. HIDE THE BORDER AT THE TOP OF THE PAGE */
+  header nav.navbar {
+    border-bottom: 0.2px solid transparent !important;
+    box-shadow: none !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  /* 3. FORCE BLUE ONLY WHEN SCROLLING DOWN */
+  /* (Removed the permanent "fixed-top" class from here!) */
   header nav.navbar.scrolled,
-  header nav.navbar.top-nav-collapse {
+  header nav.navbar.top-nav-collapse,
+  header nav.navbar.auto-hiding-navbar {
     border-bottom: 0.2px solid var(--global-theme-color) !important;
     box-shadow: 0 1px 0 0 var(--global-theme-color) !important;
   }
 
-
-  /* =========================================
-     MAIN TEXT FONT WEIGHT
-     ========================================= */
-
+  /* INCREASE FONT THICKNESS */
   body,
   p,
   ul,
@@ -223,23 +192,7 @@ Happy to connect and chat!
     font-weight: 400 !important;
   }
 
-
-  /* =========================================
-     FOOTER
-     ========================================= */
-
-  footer,
-  footer.fixed-bottom,
-  footer .container {
-    font-size: 0.8rem !important;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
-    margin-top: 0 !important;
-    height: auto !important;
-    text-align: left !important;
-  }
-
-  /* Restore lighter footer font */
+  /* RESTORE DEFAULT FOOTER FONT WEIGHT */
   footer,
   footer p,
   footer a,
@@ -253,31 +206,22 @@ Happy to connect and chat!
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-
-    /*
-     * The About layout does not generate the navbar brand,
-     * so create "Danhou Li" when necessary.
-     */
+    /* 1. EXACT CLONE OF THE NAVBAR NAME */
     const navbarContainer =
-      document.querySelector("nav .container") ||
-      document.querySelector("nav");
+      document.querySelector('nav .container') ||
+      document.querySelector('nav');
 
-    if (navbarContainer && !document.querySelector(".navbar-brand")) {
+    if (navbarContainer && !document.querySelector('.navbar-brand')) {
+      const myName = document.createElement('a');
 
-      const myName = document.createElement("a");
+      /* Use the exact template classes used on your other pages */
+      myName.className = 'navbar-brand title font-weight-lighter';
+      myName.href = '/';
+      myName.innerText = 'Danhou Li';
 
-      myName.className =
-        "navbar-brand title font-weight-lighter";
-
-      myName.innerText = "Danhou Li";
-
-      /*
-       * No href:
-       * On the About page the name is displayed
-       * but does not reload the current page.
-       */
-      myName.style.display = "inline-block";
-      myName.style.fontWeight = "400";
+      myName.style.fontFamily = "'Roboto', sans-serif";
+      myName.style.display = 'inline-block';
+      myName.style.fontWeight = '400';
 
       navbarContainer.insertBefore(
         myName,
