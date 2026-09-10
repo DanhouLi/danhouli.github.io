@@ -145,7 +145,6 @@ Happy to connect and chat!
   /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
     font-weight: 400 !important;
-    line-height: 1.2 !important;
   }
 
   /* CHANGE THE ACTIVE PAGE HIGHLIGHT COLOR TO BLUE */
