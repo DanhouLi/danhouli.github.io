@@ -42,7 +42,7 @@ Happy to connect and chat!
 }
   
   /* Import the clean, modern Roboto font */
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+  /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');*/
   
   /* 1. Hide the giant name block on the homepage */
   .post-header, h1.post-title {
