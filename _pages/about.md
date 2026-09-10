@@ -170,9 +170,8 @@ footer div,
 footer .container {
   font-weight: 300 !important;
 }
-</style>
 
-/* KEEP NAVBAR HEIGHT STABLE */
+  /* KEEP NAVBAR HEIGHT STABLE */
 header nav.navbar {
   min-height: 56px !important;
   border-bottom: 0.2px solid transparent !important;
@@ -185,6 +184,8 @@ header nav.navbar .container {
   min-height: 56px !important;
   align-items: center !important;
 }
+  
+</style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
