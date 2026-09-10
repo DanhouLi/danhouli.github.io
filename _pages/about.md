@@ -145,7 +145,7 @@ Happy to connect and chat!
   /* THICKER NAVIGATION BUTTONS */
   nav .navbar-nav .nav-link {
     font-weight: 400 !important;
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
     line-height: 1 !important;
   }
 
