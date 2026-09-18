@@ -205,12 +205,6 @@ nav .navbar-nav .nav-link {
     font-weight: 400 !important;
   }
 
-  /* NUKE THE BUTTON AREA INSTANTLY ON LOAD */
-  .publications .links,
-  ul.bibliography .links,
-  .bibliography .links {
-    display: none !important;
-  }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* TITLE SWAP: Change the giant header text without touching the navbar */
@@ -276,10 +270,6 @@ nav .navbar-nav .nav-link {
     });
   });
 
-  // REVEAL THE REMAINING BUTTONS AFTER CLEANUP
-  document.querySelectorAll('.publications .links, ul.bibliography .links, .bibliography .links').forEach(function(linksBlock) {
-    linksBlock.style.setProperty('display', 'block', 'important');
-  });
 </script> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Danhou Li. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
