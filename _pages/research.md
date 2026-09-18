@@ -231,12 +231,6 @@ nav .navbar-nav .nav-link {
     font-weight: 400 !important;
   }
 
-  /* NUKE THE BUTTON AREA INSTANTLY ON LOAD */
-  .publications .links,
-  ul.bibliography .links,
-  .bibliography .links {
-    display: none !important;
-  }
 </style>
 
 <script>
@@ -304,8 +298,4 @@ nav .navbar-nav .nav-link {
     });
   });
 
-  // REVEAL THE REMAINING BUTTONS AFTER CLEANUP
-  document.querySelectorAll('.publications .links, ul.bibliography .links, .bibliography .links').forEach(function(linksBlock) {
-    linksBlock.style.setProperty('display', 'block', 'important');
-  });
 </script>
