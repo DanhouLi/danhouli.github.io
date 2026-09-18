@@ -231,6 +231,10 @@ nav .navbar-nav .nav-link {
     font-weight: 400 !important;
   }
 
+  /* HIDE BUTTONS INITIALLY TO PREVENT THE FLASH */
+  .publications .links {
+    opacity: 0;
+  }
 </style>
 
 <script>
@@ -296,5 +300,11 @@ nav .navbar-nav .nav-link {
         htmlButton.style.display = 'none';
       }
     });
+  });
+
+  // REVEAL THE BUTTONS AFTER CLEANUP
+  document.querySelectorAll('.publications .links').forEach(function(linksBlock) {
+    linksBlock.style.opacity = '1';
+    linksBlock.style.transition = 'opacity 0.15s ease-in'; // Adds a smooth micro-fade
   });
 </script>
