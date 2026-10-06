@@ -189,7 +189,7 @@ nav .navbar-nav .nav-link {
 
   .publications .presentations-block,
 .publications .presentations-block * {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
 }
   
   /* Also ensure the links box isn't pushing down too hard */
