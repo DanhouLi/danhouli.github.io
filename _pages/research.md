@@ -185,6 +185,7 @@ nav .navbar-nav .nav-link {
   .publications .presentations-block {
     margin-top: -5px !important; /* Negative numbers pull it upward */
     padding-top: 0 !important;
+    font-size: 0.9rem !important;
   }
   
   /* Also ensure the links box isn't pushing down too hard */
