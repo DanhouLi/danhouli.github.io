@@ -248,10 +248,11 @@ nav .navbar-nav .nav-link {
 }
 
   /* Align the buttons horizontally */
-.publications .links {
+ .publications .links {
   display: flex;
   align-items: center;
   gap: 6px;
+  margin-top: 10px !important;
 }
 
 /* Give Abstract and PDF identical dimensions */
@@ -337,6 +338,7 @@ nav .navbar-nav .nav-link {
   document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".publications .links a").forEach(function (link) {
     if (link.textContent.trim().toUpperCase() === "PDF") {
+      link.textContent = "Full Paper";
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
     }
