@@ -235,7 +235,7 @@ nav .navbar-nav .nav-link {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 80px !important;
+  width: 70px !important;
   height: 30px !important;
   padding: 0 !important;
   margin: 0 !important;
@@ -310,7 +310,7 @@ nav .navbar-nav .nav-link {
   document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".publications .links a").forEach(function (link) {
     if (link.textContent.trim().toUpperCase() === "PDF") {
-      link.textContent = "Full Paper";
+      link.textContent = "Paper";
       link.setAttribute("target", "_blank");
       link.setAttribute("rel", "noopener noreferrer");
     }
