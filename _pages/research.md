@@ -332,5 +332,14 @@ nav .navbar-nav .nav-link {
       }
     });
   });
-
+  
+   // Open pdf in a new tab
+  document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".publications .links a").forEach(function (link) {
+    if (link.textContent.trim().toUpperCase() === "PDF") {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  });
+});
 </script>
