@@ -236,6 +236,12 @@ nav .navbar-nav .nav-link {
     font-weight: 400 !important;
   }
 
+  /* No underline for coauthors' names */
+  .publications a.coauthor-link,
+.publications a.coauthor-link:hover,
+.publications a.coauthor-link:focus {
+  text-decoration: none !important;
+}
 </style>
 
 <script>
