@@ -246,6 +246,26 @@ nav .navbar-nav .nav-link {
   .publications .title {
   color: #0056b3 !important;
 }
+
+  /* Align the buttons horizontally */
+.publications .links {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Give Abstract and PDF identical dimensions */
+.publications .links a {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80px !important;
+  height: 30px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 1 !important;
+}
 </style>
 
 <script>
