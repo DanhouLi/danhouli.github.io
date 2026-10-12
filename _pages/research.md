@@ -92,7 +92,7 @@ nav_order: 2
   }
 
   /* Make the research page wider and keep it centered */
-main.container {
+ main.container {
   max-width: 1500px !important;
   width: 90% !important;
   margin-left: auto !important;
@@ -174,7 +174,7 @@ nav .navbar-nav .nav-link {
                            padding: 0 !important; /* Removes outer padding to fix the peek-a-boo glitch */ 
                            margin-top: 10px !important; } 
   .publications .abstract p { text-align: left !important; /* Forces text to left-align */ 
-                             border: 1px solid #eaecf0 !important; /* Soft gray border for your new box */ 
+                             border: 1px solid #0056b3 !important; /* Soft gray border for your new box */ 
                              background-color: #fdfdfd !important; /* Soft off-white background */ 
                              border-radius: 8px !important; /* Rounded corners */ 
                              padding: 10px 15px !important; /* Inner spacing */ 
