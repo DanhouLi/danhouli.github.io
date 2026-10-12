@@ -78,7 +78,7 @@ Happy to connect and chat!
 
   /* 4. Resize and perfectly center the profile photo */
   .profile img {
-    max-width: 220px !important; /* Change this number to adjust size */
+    max-width: 250px !important; /* Change this number to adjust size */
     width: 100% !important;
     height: auto !important;
     margin: 0 auto !important;
