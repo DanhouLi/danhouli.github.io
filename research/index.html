@@ -251,9 +251,25 @@ hr.divider {
   height: 0 !important;
 }
 
-.post-content > h2 {
+/* Job Market Paper and Working Papers: title-to-line gap */
+h2:has(+ .publications) {
+  margin-bottom: 3px !important;
+}
+
+.publications {
+  margin-top: 0 !important;
+}
+
+/* Existing bibliography lines */
+.publications h2.bibliography {
+  border-top: 2px solid #ddd !important;
+  margin-top: 0 !important;
+}
+
+/* Matching line below Work in Progress */
+h2:has(+ .work-in-progress) {
   border-bottom: 2px solid #ddd !important;
-  padding-bottom: 3px;
+  padding-bottom: 3px !important;
 }
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
