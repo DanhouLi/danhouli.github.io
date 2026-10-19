@@ -28,7 +28,7 @@ I am Danhou Li, a PhD candidate at the Department of Economics, National Univers
 
 I am on the 2026--2027 academic job market.
 
-My research interests lie in industrial organization, platform economics, and digital economy including AI. My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
+My research interests include industrial organization, platform economics, and digital economy including AI. My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
 
 Happy to connect and chat!
 
