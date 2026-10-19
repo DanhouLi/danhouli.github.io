@@ -13,7 +13,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query @*[jobmarket=true] %}
+{% bibliography --query @*[jmp=true] %}
 
 </div>
 
@@ -25,7 +25,7 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography --query @*[jobmarket!=true] %}
+{% bibliography --query @*[jmp!=true] %}
 
 </div>
 
