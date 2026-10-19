@@ -7,9 +7,25 @@ nav: true
 nav_order: 2
 ---
 
+<h2 style="font-size: 1.75rem; margin-bottom: 20px;">
+  Job Market Paper
+</h2>
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[jobmarket=true] %}
+
+</div>
+
+<hr class="divider">
+
+<h2 style="font-size: 1.75rem; margin-bottom: 20px;">
+  Working Papers and Publications
+</h2>
+
+<div class="publications">
+
+{% bibliography --query @*[jobmarket!=true] %}
 
 </div>
 
