@@ -237,6 +237,24 @@ nav .navbar-nav .nav-link {
   margin: 0 !important;
   line-height: 1 !important;
 }
+
+  /* Hide the overall page heading */
+header.post-header {
+  display: none !important;
+}
+
+/* Remove divider lines while keeping the space between sections */
+hr.divider {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  height: 0 !important;
+}
+
+.post-content > h2 {
+  border-bottom: 2px solid #ddd !important;
+  padding-bottom: 8px;
+}
 </style> <script>
   document.addEventListener("DOMContentLoaded", function() {
     /* TITLE SWAP: Change the giant header text without touching the navbar */
