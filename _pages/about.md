@@ -24,11 +24,11 @@ latest_posts:
 
 Welcome to my homepage!
 
-I am Danhou Li, a PhD candidate from the Department of Economics, National University of Singapore (NUS). Before joining NUS, I obtained my Bachelor’s and Master’s degrees in economics from the Chinese University of Hong Kong (CUHK).
+I am Danhou Li, a PhD candidate at the Department of Economics, National University of Singapore (NUS). Before joining NUS, I obtained my Bachelor’s and Master’s degrees in economics from the Chinese University of Hong Kong (CUHK).
 
-Research Interests: Industrial Organization, Platform Economics, Digital Economy
+I am on the 2026--2027 academic job market.
 
-My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
+My research interests lie in industrial organization, platform economics, and the digital economy including AI. My recent projects focus on platform leakage (disintermediation) and price discrimination of Internet service providers, encompassing both theoretical and empirical approaches.
 
 Happy to connect and chat!
 
