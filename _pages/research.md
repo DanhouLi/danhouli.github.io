@@ -295,7 +295,7 @@ hr.divider {
 
 /* Job Market Paper and Working Papers: title-to-line gap */
 h2:has(+ .publications) {
-  margin-bottom: 3px !important;
+  margin-bottom: 5px !important;
 }
 
 .publications {
@@ -311,7 +311,13 @@ h2:has(+ .publications) {
 /* Matching line below Work in Progress */
 h2:has(+ .work-in-progress) {
   border-bottom: 2px solid #ddd !important;
-  padding-bottom: 3px !important;
+  padding-bottom: 5px !important;
+}
+
+/* Reduce the gap before Working Papers and Publications */
+.publications + hr.divider {
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
 }
 </style>
 
