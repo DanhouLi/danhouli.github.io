@@ -30,7 +30,7 @@ nav_order: 2
 </div>
 
 <p style="margin-left: 180px; font-size: 1rem; font-weight: 400;font-style: italic; margin-top: 30px;">
-  (including scheduled. * presented by a coauthor)
+  (including scheduled; * presented by a coauthor)
 </p>
 
 <hr class="divider">
