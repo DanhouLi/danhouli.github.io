@@ -20,18 +20,30 @@ nav_order: 2
 <hr class="divider">
 
 <h2 style="font-size: 1.75rem; margin-bottom: 20px;">
-  Working Papers and Publications
+  Working Papers
 </h2>
 
 <div class="publications">
 
-{% bibliography --query @*[jmp!=true] %}
+{% bibliography --query @*[research_section=working_papers] %}
 
 </div>
 
 <p style="margin-left: 180px; font-size: 1rem; font-weight: 400;font-style: italic; margin-top: 30px;">
   (including scheduled; * presented by a coauthor)
 </p>
+
+<hr class="divider">
+
+<h2 style="font-size: 1.75rem; margin-bottom: 20px;">
+  Publications
+</h2>
+
+<div class="publications">
+
+{% bibliography --query @*[research_section=publications] %}
+
+</div>
 
 <hr class="divider">
 
