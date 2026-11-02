@@ -3,5 +3,5 @@ layout: page
 title: CV
 nav: true
 nav_order: 7
-permalink: "https://danhouli.github.io/assets/pdf/CV_Danhou%20Li.pdf"
+permalink: "https://danhouli.github.io/assets/pdf/CV_Danhou_Li.pdf"
 ---
