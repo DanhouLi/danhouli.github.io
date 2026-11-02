@@ -414,8 +414,9 @@ h2:has(+ .work-in-progress) {
   document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("nav a.nav-link").forEach(function (link) {
     if (link.textContent.trim() === "CV") {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
+      link.href = "https://danhouli.github.io/assets/pdf/CV_Danhou%20Li.pdf";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
     }
   });
 });
