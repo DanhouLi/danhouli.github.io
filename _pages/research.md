@@ -410,4 +410,13 @@ h2:has(+ .work-in-progress) {
     }
   });
 });
+
+  document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("nav a.nav-link").forEach(function (link) {
+    if (link.textContent.trim() === "CV") {
+      link.setAttribute("target", "_blank");
+      link.setAttribute("rel", "noopener noreferrer");
+    }
+  });
+});
 </script>
