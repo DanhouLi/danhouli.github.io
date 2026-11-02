@@ -203,4 +203,33 @@ nav .navbar-nav .nav-link {
     text-align: left !important;
   }
 
+  /* Remove spacing from the empty page description */
+header.post-header .post-description:empty {
+  display: none !important;
+}
+
+/* Remove extra spacing below Teaching */
+header.post-header,
+header.post-header .post-title {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Match the research page's divider spacing */
+hr.teaching-divider {
+  margin-top: 5px !important;
+  margin-bottom: 30px !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  border-top: 2px solid #ddd !important;
+}
+
+/* Prevent additional spacing above the content */
+.teaching-content,
+.teaching-content > p:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 </style>
