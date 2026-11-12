@@ -341,7 +341,7 @@ h2:has(+ .work-in-progress) {
 }
 
 .work-in-progress li strong {
-  font-size: 1.2em !important;
+  font-size: 1.1em !important;
 }
 </style>
 
