@@ -333,6 +333,16 @@ h2:has(+ .work-in-progress) {
   margin-top: 0 !important;
   margin-bottom: 15px !important;
 }
+
+/* work in progress part */
+  .work-in-progress {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.work-in-progress li strong {
+  font-size: 1.2em !important;
+}
 </style>
 
 <script>
